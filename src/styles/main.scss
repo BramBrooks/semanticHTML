@@ -1,0 +1,101 @@
+@import "variables.scss";
+@import "placeholder.scss";
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: $cool-black;
+  background-color: $background_grey;
+  font-family: "Tangerine", serif !important;
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  // height: auto;
+}
+
+// @import "./components/header_1.scss";
+@import "./components/header_2.scss";
+
+main {
+  font-family: sans-serif;
+  margin: 50px;
+  padding: 5px;
+  border: 15px solid $red-background;
+  border-radius: 40px;
+  background-color: $light-grey-background;
+
+  h2 {
+    padding: 15px 0 8px 0px;
+    margin: 0 30px 5px 0;
+    border-bottom: 0.5px dotted $red-background;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 35px;
+  }
+
+  section {
+    margin: 0 0 70px 20px;
+    // background-color: white;
+  }
+
+  section:nth-last-child(n) {
+    margin-bottom: 20px;
+  }
+
+  p {
+    padding: 10px 20px 10px 20px;
+    margin-left: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    max-width: 600px;
+
+    span {
+      color: $red-background;
+    }
+  }
+}
+
+.container_2 {
+  h2:nth-of-type(2) {
+    margin-top: 14px;
+    // margin-left: -100px;
+  }
+}
+
+aside {
+  // margin-top: 60px;
+
+  border-left: 1px dotted $red-background;
+  padding-left: 30px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+// Pages
+@import "./pages/1.home.scss";
+@import "./pages/2.text.scss";
+@import "./pages/3.table.scss";
+@import "./pages/4.form.scss";
+@import "./pages/5.embeded.scss";
+@import "./pages/6.meta.scss";
+@import "./pages/7.misc.scss";
+@import "./pages/8.tags.scss";
+
+// Components
+@import "./components/nav.scss";
+@import "./components/footer.scss";
+
+// main {
+//   p {
+//     font-family: "ROBOTO";
+//   }
+// }

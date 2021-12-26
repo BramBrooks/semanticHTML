@@ -1,0 +1,154 @@
+// alternative styling for form - use for drop-down
+
+// sass variables
+
+// $red-background: rgb(206, 92, 92);
+// $light-red-background: rgb(208, 155, 155);
+// $text-colour: white;
+// $black-font: rgb(34, 5, 5);
+
+// ::placeholder {
+//   /* Chrome, Firefox, Opera, Safari 10.1+ */
+//   color: $text-colour;
+//   opacity: 1; /* Firefox */
+// }
+
+// :-ms-input-placeholder {
+//   /* Internet Explorer 10-11 */
+//   color: $text-colour;
+// }
+
+// ::-ms-input-placeholder {
+//   /* Microsoft Edge */
+//   color: $text-colour;
+// }
+
+// header {
+//   // margin-top: -85px;
+//   padding: 10px;
+// }
+
+// h1 {
+//   background-color: $red-background;
+//   padding-top: 33px;
+//   border: white solid 2px;
+//   padding-bottom: 30px;
+//   font-size: 130px;
+//   margin-bottom: 10px;
+//   color: $black-font;
+//   text-align: center;
+// }
+
+// nav {
+//   ul {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+
+//     background-color: $red-background;
+//     list-style: none;
+//     margin: -60px 12px 10px 12px;
+//   }
+
+//   li {
+//     padding: 15px;
+//     font-weight: bold;
+//     font-size: 20px;
+//     list-style-type: none;
+//   }
+// }
+
+// main {
+//   margin-bottom: 120px;
+// }
+
+// form {
+//   margin-left: 500px;
+//   li {
+//     padding: 0px;
+//     font-weight: bold;
+//     font-size: 20px;
+//     list-style-type: none;
+
+//     color: #ffffff;
+//     margin-bottom: 5px;
+
+//     input {
+//       width: 30%;
+//       background-color: $red-background;
+//       padding: 12px 20px 12px 10px;
+//       border: 0;
+//     }
+
+//     input:hover {
+//       // background-color: red;
+//       background-color: $light-red-background;
+//     }
+
+//     input:focus {
+//       background-color: $light-red-background;
+//       color: white !important;
+//     }
+
+//     button {
+//       background-color: $black-font;
+//       color: $text-colour;
+//     }
+//   }
+// }
+
+// p {
+//   border: $red-background solid 2px;
+//   margin: 10px;
+//   border-radius: 5px;
+//   padding: 10px;
+//   text-align: center;
+//   font-size: 20px;
+// }
+
+// /* li a {
+//   display: block;
+//   color: white;
+//   text-align: center;
+//   padding: 16px;
+//   text-decoration: none;
+// } */
+
+// li a:hover {
+//   background-color: #111111;
+// }
+
+// fieldset {
+//   border: 0;
+// }
+
+// // embedded content
+
+// audio {
+//   border: $red-background solid 12px;
+//   border-radius: 50px;
+//   padding: 10px;
+// }
+
+// img {
+//   width: 800px;
+//   border-radius: 50px;
+//   height: auto;
+//   padding: 15px;
+//   border: $red-background solid 12px;
+//   margin-top: 30px;
+//   padding: 10px;
+// }
+
+// video {
+//   margin-top: 30px;
+//   padding: 15px;
+//   border: $red-background solid 12px;
+//   width: 800px;
+//   border-radius: 50px;
+//   height: auto;
+// }
+ /* <div className="section">
+        <h2>Voice Driven Development.</h2>
+        
+      </div> */

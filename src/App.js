@@ -1,24 +1,55 @@
-import logo from './logo.svg';
-import './App.css';
+// import Header from "./components/header_1";
+import Header from "./components/header_2";
+import Home from "./pages/1.home";
+import Form from "./pages/4.form";
+import Embedded from "./pages/5.embedded";
+import Text from "./pages/2.text";
+import Meta from "./pages/6.meta";
+import Table from "./pages/3.table";
+import Tags from "./pages/8.tags";
+// import Misc from "./pages/7.misc";
+import Footer from "./components/footer";
+
+import "./styles/reset.scss";
+import "./styles/main.scss";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      {/* <div className="header_banner"> */}
+      <Header />
+      {/* <Nav /> */}
+      {/* </div> */}
+
+      <Switch>
+        <Route path="/embedded">
+          <Embedded />
+        </Route>
+        <Route path="/text">
+          <Text />
+        </Route>
+        <Route path="/form">
+          <Form />
+        </Route>
+        <Route path="/meta">
+          <Meta />
+        </Route>
+        <Route path="/table">
+          <Table />
+        </Route>
+        <Route path="/tags">
+          <Tags />
+        </Route>
+        {/* <Route path="/misc">
+          <Misc />
+        </Route> */}
+        <Route exact path="/">
+          <Home />
+        </Route>
+      </Switch>
+      <Footer />
+    </Router>
   );
 }
 

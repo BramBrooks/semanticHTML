@@ -1,0 +1,36 @@
+// img {
+//   display: block;
+//   margin: 0 auto;
+//   width: 260px;
+//   height: 232px;
+// }
+.misc_page_container {
+  main {
+    background-color: black;
+    color: white;
+    h2 {
+      color: $red-background;
+    }
+    .output {
+      font: 1rem "Fira Sans", sans-serif;
+    }
+
+    p,
+    dt {
+      font-weight: bold;
+    }
+
+    dl,
+    dd {
+      font-size: 0.9rem;
+    }
+
+    dd {
+      margin-bottom: 1em;
+      margin-left: 30px;
+    }
+    dt::after {
+      content: ": ";
+    }
+  }
+}

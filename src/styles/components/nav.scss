@@ -1,0 +1,40 @@
+// nav {
+//   // need to wrap list items in a div and at Padding this?
+//   // border-bottom: 1px solid white;
+//   padding: 0px 130px 30px 130px;
+//   font-family: "Helvetica Neue", Arial, sans-serif;
+//   ul {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+
+//     background-color: $red-background;
+//     list-style: none;
+//     margin: -83px 12px 10px 12px;
+//   }
+
+//   li {
+//     padding: 15px 15px 5px 15px;
+//     font-weight: bold;
+//     font-size: 20px;
+//     list-style-type: none;
+
+//     a {
+//       text-decoration: none;
+//       color: black;
+//     }
+//     a:hover {
+//       border-bottom: 2px solid black;
+//       background-color: $red-background;
+//     }
+//   }
+// }
+
+// // options
+// // use divs to style each Link tag
+// // use CSS selectors to style each Link tag
+// // revert to using ul and li tags to revert to original styling
+// // should I be using list items on navbar anyway? <----------
+
+// // stuff to do
+// // check into whether or not anchor tag is on reset stylesheet

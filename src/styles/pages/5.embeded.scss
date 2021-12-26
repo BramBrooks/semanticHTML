@@ -1,0 +1,147 @@
+// embedded content
+
+.embedded_container {
+  main {
+    background-color: black;
+    background-color: #1e1e1e;
+
+    color: $red-background;
+    color: white;
+  }
+
+  section {
+    margin-bottom: 20px;
+    // background-color: yellow;
+  }
+
+  .embedded_txt {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    padding-top: 5px;
+    flex-wrap: wrap;
+
+    p {
+      width: 300px;
+      padding-right: 40px;
+    }
+    // p:nth-of-type(2) {
+    //   // padding-right: 40px;
+    //   // color: yellow;
+    //   // width: 25em;
+    // }6
+  }
+
+  h2 {
+    margin-top: 20px;
+    border-bottom: 1px dotted $red-background;
+    color: $red-background;
+    margin: 0 30px 5px 0;
+  }
+
+  .audio_flex_container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    margin-left: -20px;
+    // remember to save the whole border thing as a variable
+    h2 {
+      border-top: 1px dotted $red-background;
+      padding-top: 40px;
+      background-color: blue;
+    }
+
+    h3 {
+      margin-top: 15px;
+      text-align: center;
+      margin-bottom: 5px;
+    }
+    audio {
+      border: $red-background solid 12px;
+      border-radius: 50px;
+      padding: 10px;
+      width: 280px;
+      margin: 10px;
+    }
+
+    details {
+      summary {
+        margin-top: 25px;
+        // margin-left: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      ul {
+        margin-top: 30px;
+        margin-left: 40px;
+        list-style: square;
+
+        // margin-left: 40px;
+        li {
+          margin-bottom: 20px;
+          max-width: 270px;
+          // text-align: center;
+        }
+      }
+    }
+  }
+
+  .video_flex_container {
+    display: flex;
+    justify-content: center;
+
+    video {
+      margin-top: 50px;
+      padding: 15px;
+      border: $red-background solid 12px;
+      width: 70%;
+      border-radius: 50px;
+      height: auto;
+      // position: relative;
+    }
+  }
+  .summary_flex_container {
+    display: flex;
+    justify-content: center;
+
+    details {
+      summary {
+        margin-top: 40px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      ul {
+        list-style: square;
+        margin-left: 40px;
+        li {
+          margin-bottom: 20px;
+          max-width: 300px;
+        }
+      }
+    }
+  }
+  .photography_container {
+    background-color: #1e1e1e;
+    ul {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      margin-left: -20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      li {
+        // flex-grow: 1;
+        img {
+          width: 300px;
+          // width: 50%;
+          height: auto;
+          padding: 15px;
+          border: grey solid 1px;
+          margin: 10px 10px;
+        }
+      }
+    }
+  }
+}

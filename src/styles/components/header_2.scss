@@ -1,0 +1,71 @@
+.header_container {
+  header {
+    display: flex;
+    justify-content: center;
+    background-color: $red-background;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+
+    .title_logo_nav_container {
+      display: flex;
+      margin-top: -10px;
+      flex-direction: column;
+      align-items: center;
+
+      .title_and_logo_container {
+        display: flex;
+        padding: 10px 0 0 0;
+        // remember this need to be adjusted if logo or H1 is adjusted
+        margin-left: -55px;
+
+        img {
+          height: auto;
+          width: 115px;
+          animation: rotation 3s linear;
+        }
+
+        .Link {
+          text-decoration: none;
+        }
+
+        h1 {
+          font-size: 90px;
+          margin-left: 10px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          color: $black-font;
+          font-family: "Helvetica Neue", Arial, sans-serif;
+          text-decoration: none;
+        }
+      }
+
+      nav {
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        // margin-right: 70px;
+        ul {
+          display: flex;
+          flex-direction: row;
+          list-style: none;
+          margin-top: -7px;
+        }
+
+        li {
+          font-weight: bold;
+          font-size: 20px;
+          list-style-type: none;
+          color: black;
+          padding-right: 20px;
+
+          a {
+            text-decoration: none;
+            color: black;
+          }
+          a:hover {
+            border-bottom: 2px solid black;
+          }
+        }
+      }
+    }
+  }
+}

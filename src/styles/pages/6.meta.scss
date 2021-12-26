@@ -1,0 +1,103 @@
+.meta_page {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+
+  color: $cool-black;
+
+  header {
+    h2 {
+      color: $cool-black;
+      color: $red-background;
+      padding: 15px 0 8px 0px;
+      margin: 0 30px 5px 0;
+      font-size: 35px;
+    }
+  }
+
+  .container_1 {
+    width: 60%;
+
+    ul {
+      margin-right: 30px;
+
+      li {
+        list-style-type: square;
+        max-width: 600px;
+        border-bottom: 1px dotted $red-background;
+        padding: 15px 20px 15px 0px;
+        list-style: none;
+
+        dd {
+          padding: 0px 20px 10px 0px;
+          font-size: 20px;
+          color: $red-background;
+        }
+        dfn {
+          padding: 0px 20px 0px 0px;
+          margin-bottom: 20px;
+          font-style: normal;
+
+          p {
+            padding: 10px 0 0 20px;
+            margin-left: 0;
+            margin-bottom: -15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+
+            code {
+              color: $blue;
+              color: $red-background;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .container_2 {
+    width: 40%;
+    height: 100%;
+    aside {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      justify-content: space-between;
+      padding-left: 10px;
+      // background-color: yellow;
+
+      h2 {
+        color: $red-background;
+        // color: $cool-black;
+        padding: 15px 0 8px 0px;
+        margin: 0 30px 5px 0;
+        font-size: 35px;
+      }
+
+      h2:nth-of-type(2) {
+        margin-top: 40px;
+        color: yellow;
+      }
+
+      img {
+        // width: 360px;
+        width: 80%;
+        height: auto;
+        // padding-bottom: 20px;
+        // border: 9px solid #b95561;
+        border-radius: 15px;
+
+        margin-left: 26px;
+        // margin-top: 42px;
+        // border: 9px solid $red-background;
+        box-shadow: 20px;
+      }
+    }
+    .meta_item_2 {
+      margin-top: 20px;
+    }
+    .meta_item_3 {
+      margin-top: 20px;
+    }
+  }
+}

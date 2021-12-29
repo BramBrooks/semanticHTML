@@ -1,7 +1,8 @@
 import React, { createContext } from "react";
 import { Link } from "react-router-dom";
 import logo from "../media/images/rediffusion_logo.png";
-import Nav from "./nav";
+import Nav from "./navbar/nav";
+import Hamburger from "./hamburger";
 
 function Header() {
   return (
@@ -21,6 +22,8 @@ function Header() {
           </div>
           <Nav />
         </div>
+
+        <Hamburger />
       </header>
     </div>
   );

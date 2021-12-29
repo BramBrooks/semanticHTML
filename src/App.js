@@ -22,7 +22,7 @@ function App() {
       {/* <Nav /> */}
       {/* </div> */}
 
-      <Switch>
+      {/* <Switch>
         <Route path="/embedded">
           <Embedded />
         </Route>
@@ -40,15 +40,15 @@ function App() {
         </Route>
         <Route path="/tags">
           <Tags />
-        </Route>
-        {/* <Route path="/misc">
+        </Route> */}
+      {/* <Route path="/misc">
           <Misc />
         </Route> */}
-        <Route exact path="/">
+      {/* <Route exact path="/">
           <Home />
         </Route>
-      </Switch>
-      <Footer />
+      </Switch> */}
+      {/* <Footer /> */}
     </Router>
   );
 }

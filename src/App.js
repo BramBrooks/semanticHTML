@@ -1,5 +1,5 @@
 // import Header from "./components/header_1";
-import Header from "./components/header_2";
+import Header from "./components/header";
 import Home from "./pages/1.home";
 import Form from "./pages/4.form";
 import Embedded from "./pages/5.embedded";
@@ -22,7 +22,7 @@ function App() {
       {/* <Nav /> */}
       {/* </div> */}
 
-      {/* <Switch>
+      <Switch>
         <Route path="/embedded">
           <Embedded />
         </Route>
@@ -40,15 +40,15 @@ function App() {
         </Route>
         <Route path="/tags">
           <Tags />
-        </Route> */}
-      {/* <Route path="/misc">
+        </Route>
+        {/* <Route path="/misc">
           <Misc />
         </Route> */}
-      {/* <Route exact path="/">
+        <Route exact path="/">
           <Home />
         </Route>
-      </Switch> */}
-      {/* <Footer /> */}
+      </Switch>
+      <Footer />
     </Router>
   );
 }

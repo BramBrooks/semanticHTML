@@ -10,10 +10,13 @@ const Home = () => {
             <h2>Welcome.</h2>
             <p>Hi there.</p>
             <p>
-              As part of my learning and development, I wanted to familiarise
-              myself with each HTML element…
+              As part of my learning and development, I wanted to become more
+              familiar with HTML elements…
             </p>
-            <p>... so I decided to create a site which uses all of them !</p>
+            <p>
+              ... so I decided to try and create a site which includes all of
+              them !
+            </p>
             <p>
               So far I've included&nbsp;
               <span>81%</span>&nbsp;of HTML tags in this site.

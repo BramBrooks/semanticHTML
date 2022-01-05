@@ -16,12 +16,18 @@ body {
   // height: auto;
 }
 
+
+
+
+
+
 // @import "./components/header_1.scss";
-@import "./components/header_2.scss";
+@import "./components/header.scss";
 
 main {
+  position: relative;
   font-family: sans-serif;
-  margin: 50px;
+  margin: 40px 50px;
   padding: 5px;
   border: 15px solid $red-background;
   border-radius: 40px;
@@ -47,6 +53,7 @@ main {
   p {
     padding: 10px 20px 10px 20px;
     margin-left: -20px;
+    font-family: "Montserrat", sans-serif;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     max-width: 600px;
@@ -91,7 +98,7 @@ aside {
 @import "./pages/8.tags.scss";
 
 // Components
-@import "./components/nav.scss";
+
 @import "./components/footer.scss";
 
 // main {

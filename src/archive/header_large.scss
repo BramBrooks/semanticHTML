@@ -30,6 +30,8 @@
           height: auto;
           width: 115px;
           animation: rotation 3s linear;
+          color: white;
+          // display: none;
         }
 
         .Link {
@@ -39,46 +41,20 @@
         h1 {
           font-size: 90px;
           margin-left: 10px;
+          // margin-left: 50px;
           padding-top: 10px;
           padding-bottom: 10px;
           color: $black-font;
+          // color: white;
           font-family: "Helvetica Neue", Arial, sans-serif;
+          // font-family: "Londrina Outline", cursive;
+          // font-family: "Montserrat", sans-serif;
+          // font-family: "Special Elite", cursive;
           text-decoration: none;
         }
       }
 
-      nav {
-        font-family: "Helvetica Neue", Arial, sans-serif;
-        // margin-right: 70px;
-
-        ul {
-          display: flex;
-          flex-direction: row;
-          list-style: none;
-          margin-top: -7px;
-        }
-
-        li {
-          font-weight: bold;
-          font-size: 20px;
-          list-style-type: none;
-          color: black;
-
-          a {
-            text-decoration: none;
-            color: black;
-            // display: block;
-            padding-right: 20px;
-            padding: 0.4rem;
-          }
-          a:hover {
-            // border-bottom: 2px solid black;
-            background-color: $light-red-background;
-            border-radius: 5px;
-            // border-radius: 50px;
-          }
-        }
-      }
+      @import "./nav.scss";
     }
   }
   // }
@@ -129,4 +105,42 @@
   //     display: none;
   //   }
   // }
+}
+
+nav {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: -7px;
+    grid-gap: 10px;
+    grid-gap: 5px;
+  }
+
+  li {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Montserrat;
+    list-style-type: none;
+    // color: black;
+
+    a {
+      text-decoration: none;
+      color: black;
+      color: $black-font;
+      // color: white;
+      // display: block;
+      // padding-right: 20px;
+      // padding: 0.4rem;
+      padding: 0.5rem;
+    }
+    a:hover {
+      background-color: $light-red-background;
+      border-radius: 4px;
+      transition: all 0.2s ease-out;
+      opacity: 1;
+    }
+  }
 }

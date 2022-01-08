@@ -24,7 +24,9 @@ body {
 main {
   position: relative;
   font-family: sans-serif;
-  margin: 40px 50px;
+
+  // margin: 40px 50px;
+  margin: 30px 5%;
   padding: 5px;
   border: 15px solid $red-background;
   border-radius: 40px;
@@ -97,9 +99,3 @@ aside {
 // Components
 
 @import "./components/footer.scss";
-
-// main {
-//   p {
-//     font-family: "ROBOTO";
-//   }
-// }

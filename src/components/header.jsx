@@ -25,7 +25,9 @@ class Header extends Component {
               <h1>Semantic HTML</h1>
             </Link>
           </div>
-
+          {/* 
+          <Nav /> */}
+          {/* <Nav result={this.state.clicked} /> */}
           <Nav result={this.state.clicked} handleClick={this.handleClick} />
           <div className="menu-icon" onClick={this.handleClick}>
             <i

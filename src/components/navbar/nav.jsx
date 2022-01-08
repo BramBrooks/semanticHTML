@@ -6,12 +6,11 @@ function Nav(props) {
   const result = props.result;
   const handleClick = props.handleClick;
 
-  //  OK need to find a way to hide MAIN when nav menu active is showing 
-  //  So try sharing that info like has been shown here and then do conditional formatting? 
+  //  OK need to find a way to hide MAIN when nav menu active is showing
+  //  So try sharing that info like has been shown here and then do conditional formatting?
 
   return (
     <nav>
-     
       <ul className={result ? "nav-menu active" : "nav-menu"}>
         {MenuItems.map((item, index) => {
           return (
@@ -26,3 +25,6 @@ function Nav(props) {
 }
 
 export default Nav;
+
+
+// possible situation where 2 x handle clicks needed? 

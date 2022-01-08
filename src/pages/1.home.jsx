@@ -8,23 +8,23 @@ const Home = () => {
         <div className="flex_item_1">
           <section>
             <h2>Welcome.</h2>
-            <p>Hi there.</p>
+            <p>Hi there !</p>
             <p>
               As part of my learning and development, I wanted to become more
-              familiar with HTML elements…
+              familiar each HTML element…
             </p>
             <p>
-              ... so I decided to try and create a site which includes all of
+              ... so I decided to try and create a site which included all of
               them !
             </p>
             <p>
-              So far I've included&nbsp;
-              <span>81%</span>&nbsp;of HTML tags in this site.
+              I've included&nbsp;
+              <span>81%</span>&nbsp;of HTML tags in this site so far.
             </p>
             <p>
               HTML gives structure to webpages, but the correct use of&nbsp;
-              <dfn>Semantic HTML</dfn> - the <em>meaningful</em> use of HTML
-              tags - is essential for two reasons:
+              <dfn>Semantic HTML</dfn> - the meaningful use of HTML tags - is
+              essential for two reasons:
             </p>
             <br />
             <ol>

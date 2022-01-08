@@ -2,6 +2,8 @@
   main {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    // justify-content: center;
     background-color: white;
     background-color: $cool-black;
     color: white;
@@ -14,6 +16,11 @@
 
     .flex_item_1 {
       width: 65%;
+      // min-width: 200px;
+      // flex-grow: 1;
+      // max-width: 900px;
+      // max-width: 100%;
+      // background-color: green;
 
       ol {
         list-style-type: decimal;
@@ -33,6 +40,7 @@
 
     .flex_item_2 {
       width: 30%;
+      min-width: 282px;
       p {
         padding-bottom: 20px;
       }
@@ -44,6 +52,23 @@
           margin-left: 20px;
           list-style-type: square;
           padding: 20px 0 10px 0;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+    main {
+      .flex_item_1 {
+        width: 100%;
+        // align-self: center;
+      }
+
+      .flex_item_2 {
+        width: 100%;
+        aside {
+          border-left: 0;
+          padding-left: 20px;
         }
       }
     }

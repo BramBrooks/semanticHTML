@@ -109,15 +109,8 @@ aside {
     }
 
     p {
-      font-size: 12px;
+      font-size: $mobile-font-size;
     }
-  }
-
-  .menu-icon {
-    right: 20px;
-  }
-  .title_and_logo_container {
-    margin-left: 40px;
   }
 }
 

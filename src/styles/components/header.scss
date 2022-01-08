@@ -181,24 +181,10 @@
         }
       }
     }
-
-    @media screen and (max-width: 430px) {
-      .menu-icon {
-        font-size: 1.2rem;
-        top: 22px;
-      }
-      .title_and_logo_container {
-        margin-left: 80px;
-
-        h1 {
-          font-size: 26px;
-        }
-      }
-    }
   }
 }
 
-@media screen and (max-width: 416px) {
+@media screen and (max-width: 430px) {
   .header_container {
     header {
       height: 50px;
@@ -212,12 +198,12 @@
         margin-left: 60px;
 
         h1 {
-          font-size: 20px;
+          font-size: 25px;
         }
       }
 
       // iphone 5/6/7/8 - 320px
-      @media screen and (max-width: 320px) {
+      @media screen and (max-width: 360px) {
         .menu-icon {
           right: 20px;
         }
@@ -242,4 +228,6 @@
 // iPhone 5         --> 320px
 // iPhone 6/7/8     --> 320px
 // iPhone 6/7/8     --> 320px
+
+
 // Galaxy Fold      --> 280px !!!

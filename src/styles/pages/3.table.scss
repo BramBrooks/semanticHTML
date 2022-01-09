@@ -217,4 +217,65 @@
   }
 }
 
+// 560px and below ---> mobile view / font reductions
+@media screen and (max-width: 560px) {
+  .table_page .football_table_container .football_flex_item {
+    min-width: 300px;
+    padding: 5px 0px 5px 0px;
+  }
+
+  td,
+  tr {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .table_page .football_table_container .football_flex_item caption {
+    font-size: 20px;
+  }
+
+  .table_page .football_table_container .football_flex_item {
+    min-width: 250px;
+    padding: 5px 0px 5px 0px;
+  }
+
+  td,
+  tr {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .table_page .football_table_container .football_flex_item {
+    min-width: 225px;
+    padding: 5px 0px 5px 0px;
+  }
+
+  td,
+  tr {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .table_page .football_table_container .football_flex_item {
+    min-width: 200px;
+    padding: 5px 0px 5px 0px;
+  }
+
+  td,
+  tr {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .table_page .football_table_container .football_flex_item {
+    min-width: 180px;
+    padding: 5px 0px 5px 0px;
+  }
+
+  td,
+  tr {
+    font-size: 10px;
+  }
+}
+
 // still need to figure out the issue with spacing the tables out, I'm sure it's something to do with width % vs flexbox causing some weirdness

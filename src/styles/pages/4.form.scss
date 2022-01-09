@@ -5,11 +5,13 @@ form {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-
     justify-content: center;
+    flex-wrap: wrap;
+    // justify-content: space-between;
 
     .flex_item_1 {
       width: 40%;
+      min-width: 400px;
       p {
         font-weight: bold;
         font-size: 20px;
@@ -34,6 +36,7 @@ form {
     }
     .flex_item_2 {
       width: 40%;
+      min-width: 400px;
 
       p {
         // width: 1000px;
@@ -78,6 +81,62 @@ form {
         transition: 0.7s;
       }
     }
+  }
+}
+
+@media screen and (max-width: 1026px) {
+  form {
+    margin: 70px 0px 90px 50px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  form {
+    margin: 50px 0px 90px 25px;
+  }
+
+  form .flex_container .flex_item_1,
+  form .flex_container .flex_item_2 {
+    width: 300px;
+    // min-width: 300px;
+    min-width: 100px;
+  }
+}
+@media screen and (max-width: 430px) {
+  form {
+    margin: 50px 0px 90px 25px;
+  }
+
+  form .flex_container .flex_item_1,
+  form .flex_container .flex_item_2 {
+    width: 250px;
+    // min-width: 300px;
+    min-width: 100px;
+  }
+}
+@media screen and (max-width: 375px) {
+  form {
+    margin: 50px 0px 90px 15px;
+  }
+
+  form .flex_container .flex_item_1,
+  form .flex_container .flex_item_2 {
+    width: 250px;
+    // min-width: 300px;
+    min-width: 100px;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  form {
+    margin: 50px 0px 90px 0px;
+  }
+
+  form .flex_container .flex_item_1,
+  form .flex_container .flex_item_2 {
+    width: 230px;
+    // min-width: 300px;
+    min-width: 100px;
   }
 }
 

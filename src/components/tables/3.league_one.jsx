@@ -190,11 +190,3 @@ const LeagueOne = () => {
   );
 };
 export default LeagueOne;
-
-// <colgroup id="premier_league">
-//   <col span="1" className="leaguePosition" />
-//   <col span="1" />
-//   <col span="1" />
-//   <col span="1" />
-//   <col span="1" />
-// </colgroup>;

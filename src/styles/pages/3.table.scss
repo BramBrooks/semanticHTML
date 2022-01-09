@@ -10,13 +10,18 @@
 
     .football_flex_item {
       width: 40%;
+      min-width: 350px;
+      margin-left: 20px;
+      margin-right: 20px;
+      // flex-basis: 25%;
+
       table {
         background-color: white;
         table-layout: fixed;
-        width: 100%;
         border: solid 1px #ededed;
         border-radius: 10px;
         margin-bottom: 20px;
+        margin-left: -20px;
       }
 
       caption {
@@ -86,11 +91,6 @@
 
       // NEED TO REVISIT THIS CODE, MUST BE A BETTER WAY ------->
 
-      // premier league format
-      // .pl_formatting {
-      //   display: flex;
-      //   flex-direction: column;
-      // }
       .pl_formatting {
         tr:nth-of-type(4),
         tr:nth-of-type(6),
@@ -164,20 +164,17 @@
       }
 
       .football_tables_info {
-        // background-color: $red-background;
         color: white;
         padding: 0;
         margin-left: 30px;
         margin-right: 30px;
-        margin-top: 40px;
-
-        // margin-top: -30px;
+        margin-top: -1px;
         background-color: $red-background;
         border: 1px solid $red-background;
         border-radius: 20px;
+        padding: 5px 10px;
 
         p {
-          // padding: 10px 10px 0px 10px;
           padding: 0;
           padding-bottom: 8px;
           margin-left: 0;
@@ -195,11 +192,6 @@
     }
   }
 
-  // the next steps line
-
-  // border-collapse: collapse;
-  // What does the above mean
-
   // Next steps section
   ol {
     margin-left: 20px;
@@ -210,3 +202,19 @@
     }
   }
 }
+
+// 948px ---> collapsing flexbox
+
+@media screen and (max-width: 948px) {
+  .table_page {
+    .football_table_container {
+      .football_flex_item {
+        .football_tables_info {
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+}
+
+// still need to figure out the issue with spacing the tables out, I'm sure it's something to do with width % vs flexbox causing some weirdness

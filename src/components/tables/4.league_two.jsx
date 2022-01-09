@@ -3,7 +3,8 @@ import React from "react";
 const LeagueTwo = () => {
   return (
     <div className="football_flex_item">
-      <table className="l2_formatting">
+      <table>
+        {/* <table className="l2_formatting"> */}
         <caption>League Two</caption>
 
         <colgroup>
@@ -95,7 +96,6 @@ const LeagueTwo = () => {
             <td>Tranmere</td>
             <td>15</td>
             <td>1</td>
-
             <td>22</td>
           </tr>
           <tr>
@@ -142,7 +142,6 @@ const LeagueTwo = () => {
           </tr>
           <tr>
             <td>18</td>
-
             <td>Crawley</td>
             <td>15</td>
             <td>-8</td>
@@ -150,7 +149,6 @@ const LeagueTwo = () => {
           </tr>
           <tr>
             <td>19</td>
-
             <td>Salford</td>
             <td>15</td>
             <td>-1</td>
@@ -182,7 +180,6 @@ const LeagueTwo = () => {
           </tr>
           <tr>
             <td>23</td>
-
             <td>Carlisle</td>
             <td>15</td>
             <td>-6</td>
@@ -190,7 +187,6 @@ const LeagueTwo = () => {
           </tr>
           <tr>
             <td>24</td>
-
             <td>Scunthorpe</td>
             <td>15</td>
             <td>-18</td>

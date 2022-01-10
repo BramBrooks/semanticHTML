@@ -59,17 +59,14 @@ const Embedded = () => {
                 <summary>Info</summary>
                 <ul>
                   <li>
-                    Here is a track I produced a number of years ago, while I
-                    was experimenting with reverb and digital delay effects.
+                    This track was created to a brief for the Autumn / Winter
+                    video for AKA Clothing, Manchester.
                   </li>
                   <li>
-                    The bass guitar you can hear was actually recorded as part
-                    of a live performance session, but I cut a loop from the
-                    original recording, and reversed it - given it quite a
-                    mysterious and atmospheric sound to match the beats and
-                    other sounds.
+                    I took inspiration from Radiohead, Aphex Twin and Bononbo.
+                    My freind Caroline Sheehan provided the vocal parts, with
+                    Elbow session violinist Jote Oshan on violin.
                   </li>
-                  <li>Hope you enjoy it!</li>
                 </ul>
               </details>
             </div>
@@ -80,17 +77,15 @@ const Embedded = () => {
                 <summary>Info</summary>
                 <ul>
                   <li>
-                    Here is a track I produced a number of years ago, while I
-                    was experimenting with reverb and digital delay effects.
+                    This track is based around a loop of me playing the drums in
+                    an old rehearsal room in Ancoats, recorded to casette 4
+                    track.
                   </li>
                   <li>
-                    The bass guitar you can hear was actually recorded as part
-                    of a live performance session, but I cut a loop from the
-                    original recording, and reversed it - given it quite a
-                    mysterious and atmospheric sound to match the beats and
-                    other sounds.
+                    I then added the other elements - strings, bells, distorted
+                    clitchy effects using Reason software, with the overall
+                    track mixed using Pro Tools software.
                   </li>
-                  <li>Hope you enjoy it!</li>
                 </ul>
               </details>
             </div>
@@ -106,17 +101,16 @@ const Embedded = () => {
                 <summary>Info</summary>
                 <ul>
                   <li>
-                    Here is a track I produced a number of years ago, while I
-                    was experimenting with reverb and digital delay effects.
+                    I produced this track many years ago, while experimenting
+                    with reverb and digital delay effects.
                   </li>
                   <li>
-                    The bass guitar you can hear was actually recorded as part
-                    of a live performance session, but I cut a loop from the
-                    original recording, and reversed it - given it quite a
-                    mysterious and atmospheric sound to match the beats and
-                    other sounds.
+                    The bass guitar you can hear was actually recorded live as
+                    part of a seperate band performance session, but I cut a
+                    loop from the original recording, and reversed it - given it
+                    quite a mysterious and atmospheric sound to match the beats
+                    and other sounds.
                   </li>
-                  <li>Hope you enjoy it!</li>
                 </ul>
               </details>
             </div>
@@ -143,7 +137,7 @@ const Embedded = () => {
                 />
                 This browser does not support the<code>video</code>element.
               </video>
-              {/* <details>
+              <details>
                 <summary>Info</summary>
                 <ul>
                   <li>Interesting Fact One</li>
@@ -151,7 +145,7 @@ const Embedded = () => {
                   <li>Interesting Fact Three</li>
                   <li>Interesting Fact Four</li>
                 </ul>
-              </details> */}
+              </details>
             </div>
           </div>
 

@@ -129,4 +129,12 @@
       }
     }
   }
+
+  @media screen and (max-width: 480px) {
+    .container_1,
+    .container_2 {
+      max-width: 100%;
+      min-width: 0px;
+    }
+  }
 }

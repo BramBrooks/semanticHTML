@@ -137,7 +137,7 @@ const Embedded = () => {
                 />
                 This browser does not support the<code>video</code>element.
               </video>
-              <details>
+              {/* <details>
                 <summary>Info</summary>
                 <ul>
                   <li>Interesting Fact One</li>
@@ -145,7 +145,7 @@ const Embedded = () => {
                   <li>Interesting Fact Three</li>
                   <li>Interesting Fact Four</li>
                 </ul>
-              </details>
+              </details> */}
             </div>
           </div>
 

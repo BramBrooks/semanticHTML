@@ -10,8 +10,8 @@ const TagTable = () => {
       <thead>
         <tr>
           <th>Tag</th>
-          <th>Meaning</th>
-          <th>Used?</th>
+          <th>Description</th>
+          {/* <th>Used?</th> */}
         </tr>
       </thead>
       <tbody>
@@ -26,8 +26,8 @@ const TagTable = () => {
           return (
             <tr className={tableRowColor}>
               <td>&lt;&nbsp;{tagData.tag}&nbsp;&gt;</td>
-              <td>{tagData.meaning}.</td>
-              <td>{tagData.used}</td>
+              <td>{tagData.meaning}</td>
+              {/* <td>{tagData.used}</td> */}
             </tr>
           );
         })}

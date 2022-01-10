@@ -11,25 +11,14 @@
 
   section {
     margin-bottom: 20px;
-    // background-color: yellow;
   }
 
   .embedded_txt {
-    display: flex;
-    justify-content: space-around;
-    justify-content: center;
-    padding-top: 5px;
-    flex-wrap: wrap;
-
+    margin-top: 20px;
+    margin-right: 27px;
     p {
-      width: 300px;
-      padding-right: 40px;
+      width: 100%;
     }
-    // p:nth-of-type(2) {
-    //   // padding-right: 40px;
-    //   // color: yellow;
-    //   // width: 25em;
-    // }6
   }
 
   h2 {
@@ -42,46 +31,47 @@
   .audio_flex_container {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 30px;
+    margin-top: 25px;
     flex-wrap: wrap;
     margin-left: -20px;
-    // remember to save the whole border thing as a variable
-    h2 {
-      border-top: 1px dotted $red-background;
-      padding-top: 40px;
-      background-color: blue;
-    }
 
     h3 {
       margin-top: 15px;
       text-align: center;
-      margin-bottom: 5px;
+      margin-bottom: 15px;
     }
     audio {
       border: $red-background solid 12px;
       border-radius: 50px;
       padding: 10px;
-      width: 280px;
+      width: 240px;
+      // width: 90%;
       margin: 10px;
     }
 
+    // audio summary
+
     details {
       summary {
-        margin-top: 25px;
-        // margin-left: 20px;
-        margin-bottom: 20px;
+        margin: 15px 0px 20px 77px;
         text-align: center;
+        background-color: $red-background;
+        padding: 5px 0;
+        border-radius: 40px;
+        max-width: 150px;
       }
       ul {
         margin-top: 30px;
-        margin-left: 40px;
         list-style: square;
-
-        // margin-left: 40px;
+        max-width: 200px;
+        background-color: $red-background;
+        border-radius: 11px;
+        list-style: none;
+        margin-left: 30px;
+        padding: 20px 20px 5px 20px;
         li {
           margin-bottom: 20px;
           max-width: 270px;
-          // text-align: center;
         }
       }
     }
@@ -89,59 +79,93 @@
 
   .video_flex_container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: -20px;
+
+    h3 {
+      margin-top: 15px;
+      text-align: center;
+      margin-bottom: 15px;
+    }
 
     video {
       margin-top: 50px;
       padding: 15px;
       border: $red-background solid 12px;
-      width: 70%;
+      width: 65%;
       border-radius: 50px;
       height: auto;
-      // position: relative;
     }
   }
-  .summary_flex_container {
-    display: flex;
-    justify-content: center;
 
-    details {
-      summary {
-        margin-top: 40px;
-        margin-left: 20px;
-        margin-bottom: 20px;
-        text-align: center;
-      }
-      ul {
-        list-style: square;
-        margin-left: 40px;
-        li {
-          margin-bottom: 20px;
-          max-width: 300px;
-        }
-      }
-    }
-  }
   .photography_container {
     background-color: #1e1e1e;
     ul {
-      margin-top: 30px;
-      margin-bottom: 30px;
-      margin-left: -20px;
+      margin: 30px 0px 30px -20px;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-evenly;
+      align-content: space-around;
       li {
-        // flex-grow: 1;
         img {
           width: 300px;
-          // width: 50%;
           height: auto;
           padding: 15px;
           border: grey solid 1px;
+          border: $red-background solid 1px;
+          border-radius: 5px;
           margin: 10px 10px;
         }
       }
     }
   }
+
+  /// sort out this ridiculous hack
+
+  @media screen and (max-width: 841px) {
+    .photography_container ul li img {
+      width: 92%;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .photography_container ul li img {
+      width: 91%;
+    }
+  }
+  @media screen and (max-width: 630px) {
+    .photography_container ul li img {
+      width: 90%;
+    }
+  }
+  @media screen and (max-width: 601px) {
+    .photography_container ul li img {
+      width: 88%;
+    }
+  }
+  @media screen and (max-width: 510px) {
+    .photography_container ul li img {
+      width: 86%;
+    }
+  }
+  @media screen and (max-width: 430px) {
+    .photography_container ul li img {
+      width: 84%;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .photography_container ul li img {
+      width: 83%;
+    }
+  }
+  @media screen and (max-width: 390px) {
+    .photography_container ul li img {
+      width: 82%;
+    }
+  }
 }
+
+// remember to save the whole border thing as a variable
+// go back and align the summary / ul items with flexbox
+// go back and fix photographs done with media queries
+// also go back and move all the content out to seperate files and just leave code logic

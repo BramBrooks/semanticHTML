@@ -37,27 +37,10 @@ const Embedded = () => {
           <h2>Embedded Content.</h2>
           <div className="embedded_txt">
             <p>
-              As well as training as a Web Developer, I've always enjoyed
-              various other creative pursuits, including music production,
-              photography, and bits of graphic design and video production work.
-              <br />
-              <br />
-              I've included a couple of bits of work I've been involved in
-              below, for the purposes of demonstrating the use of HTML tags.
-            </p>
-            <p>
-              As well as training as a Web Developer, I've always enjoyed
-              various other creative pursuits, including music production,
-              photography, and bits of graphic design and video production work.
-              <br />
-              <br />
-              I've included a couple of bits of work I've been involved in
-              below, for the purposes of demonstrating the use of HTML tags.
-            </p>
-            <p>
-              As well as training as a Web Developer, I've always enjoyed
-              various other creative pursuits, including music production,
-              photography, and bits of graphic design and video production work.
+              As well as training as a web / software developer, I've always
+              enjoyed various other creative pursuits, including music
+              production, photography, and bits of graphic design / video
+              production work.
               <br />
               <br />
               I've included a couple of bits of work I've been involved in
@@ -70,10 +53,10 @@ const Embedded = () => {
           <h2>Music</h2>
           <div className="audio_flex_container">
             <div className="spectro_1">
-              <h3>Track Title: Two Sides</h3>
+              <h3>Track: Two Sides</h3>
               <audio src={twosides} autoplay controls preload="auto"></audio>
               <details>
-                <summary>Track Summary (click for info)</summary>
+                <summary>Info</summary>
                 <ul>
                   <li>
                     Here is a track I produced a number of years ago, while I
@@ -94,7 +77,7 @@ const Embedded = () => {
               <h3>Title: Lost World</h3>
               <audio src={lostworld} autoplay controls preload="auto"></audio>
               <details>
-                <summary>Track Summary (click for info)</summary>
+                <summary>Info</summary>
                 <ul>
                   <li>
                     Here is a track I produced a number of years ago, while I
@@ -120,7 +103,7 @@ const Embedded = () => {
                 preload="auto"
               ></audio>
               <details>
-                <summary>Track Summary (click for info)</summary>
+                <summary>Info</summary>
                 <ul>
                   <li>
                     Here is a track I produced a number of years ago, while I
@@ -142,52 +125,39 @@ const Embedded = () => {
 
         <section>
           <h2>Video</h2>
-
-          <div className="video_flex_container">
-            <video src={videofile} controls type="video/mp4">
-              <track
-                kind="subtitles"
-                src="blockbuster.en.vtt"
-                srcLang="en"
-                label="English"
-              />
-              <track
-                kind="subtitles"
-                src="blockbuster.de.vtt"
-                srcLang="de"
-                label="Deutsch"
-              />
-              This browser does not support the<code>video</code>element.
-            </video>
+          <div className="spectro_1">
+            <div className="video_flex_container">
+              {/* <h3>Track: Two Sides</h3>{" "} */}
+              <video src={videofile} controls type="video/mp4">
+                <track
+                  kind="subtitles"
+                  src="blockbuster.en.vtt"
+                  srcLang="en"
+                  label="English"
+                />
+                <track
+                  kind="subtitles"
+                  src="blockbuster.de.vtt"
+                  srcLang="de"
+                  label="Deutsch"
+                />
+                This browser does not support the<code>video</code>element.
+              </video>
+              {/* <details>
+                <summary>Info</summary>
+                <ul>
+                  <li>Interesting Fact One</li>
+                  <li>Interesting Fact Two</li>
+                  <li>Interesting Fact Three</li>
+                  <li>Interesting Fact Four</li>
+                </ul>
+              </details> */}
+            </div>
           </div>
 
-          <div className="summary_flex_container">
-            <details>
-              <summary>Summary - (click to open)</summary>
-              <ul>
-                <li>Interesting Fact One</li>
-                <li>Interesting Fact Two</li>
-                <li>Interesting Fact Three</li>
-                <li>Interesting Fact Four</li>
-              </ul>
-            </details>
-          </div>
+          {/* <div className="summary_flex_container"></div> */}
         </section>
         <section>
-          {/* Need to spend spent more time6 figuring out objects and embed */}
-          {/* <object> */}
-          {/* also need to look into the use of param */}
-          {/* <param name="foo" value="bar"></param>
-              <embed
-                // type="flash"
-                type="video/webm"
-                src={videofile}
-                width="250"
-                height="200"
-                autoplay="off"
-              ></embed>
-            </object> */}
-
           <div className="photography_container">
             <h2>Photography</h2>
             <ul>
@@ -232,3 +202,25 @@ export default Embedded;
 // add alternative video options and explore the preload options
 // Track tag is used for bringing in subtitles, captions, descriptions, chapters, and Meta data.
 // Will be good to experiment with this to try and get it working.
+
+{
+  /* Need to spend spent more time6 figuring out objects and embed */
+}
+{
+  /* <object> */
+}
+{
+  /* also need to look into the use of param */
+}
+{
+  /* <param name="foo" value="bar"></param>
+              <embed
+                // type="flash"
+                type="video/webm"
+                src={videofile}
+                width="250"
+                height="200"
+                autoplay="off"
+              ></embed>
+            </object> */
+}

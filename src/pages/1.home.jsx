@@ -14,8 +14,7 @@ const Home = () => {
               familiar each HTML element…
             </p>
             <p>
-              ... so I decided to try and create a site which included all of
-              them !
+              ... so I decided to try and create a site which used all of them !
             </p>
             <p>
               I've included&nbsp;
@@ -23,8 +22,8 @@ const Home = () => {
             </p>
             <p>
               HTML gives structure to webpages, but the correct use of&nbsp;
-              <dfn>Semantic HTML</dfn> - the meaningful use of HTML tags - is
-              essential for two reasons:
+              <dfn>Semantic HTML</dfn>, the meaningful use of HTML tags, is
+              important for two reasons:
             </p>
             <br />
             <ol>
@@ -41,23 +40,23 @@ const Home = () => {
             {" "}
             <h2>Accessibility.</h2>
             <p>
-              People who are visually impaired have the option of using&nbsp;
-              <dfn>Screen Reader</dfn>&nbsp;software - to help make sense of
-              websites and so improve accessibility to the web.
+              People who are visually impaired can use&nbsp;
+              <dfn>Screen Reader</dfn>&nbsp;software to help make sense of
+              websites and improve accessibility to the web.
             </p>
             <p>
-              Screen Readers are driven by HTML tags, which explain to the user
-              everything that is happening on the page.
+              Screen Readers are driven by HTML tags, which help describe to the
+              user everything that is happening on the page.
             </p>
             <p>
               So, if a site has been built badly in terms of Semantic HTML, it
-              makes it far more challenging to navigate - causing additional and
+              makes it far more difficult to navigate, causing additional and
               unnecessary barriers to accessibility.
             </p>
             <p>
-              It's also important to note that Screen Readers can't read text
-              displayed in the form of image files - so this should also be
-              considered when developing new sites.
+              Screen Readers also aren't able to read text displayed in the form
+              of image files, so this is also important to remember when
+              developing.
             </p>
           </section>
           <section>
@@ -70,7 +69,7 @@ const Home = () => {
             <p>
               Search Engines use algorithms to scan websites for matches, and
               part of this is matching with sites built using the full range of
-              HTML tags for the right jobs.
+              HTML tags.
             </p>
             <p>
               So not only does Semantic HTML masssively help improve

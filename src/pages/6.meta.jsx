@@ -196,6 +196,7 @@ const Meta = () => {
                 Cookies which don't specify an expiry date, expire as soon as
                 the session has ended.
               </p>
+              <p>Cookies!!</p>
             </section>
           </div>
           <div className="meta_item_3">

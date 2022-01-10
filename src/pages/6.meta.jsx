@@ -196,7 +196,7 @@ const Meta = () => {
                 Cookies which don't specify an expiry date, expire as soon as
                 the session has ended.
               </p>
-              <p>Cookies!!</p>
+              <p>Mmmm... Cookies!!</p>
             </section>
           </div>
           <div className="meta_item_3">
@@ -217,3 +217,4 @@ const Meta = () => {
 export default Meta;
 
 // remember the meta tag doesn't have a closing tag
+// need to go back and reposition all the images with flexbox / responsive

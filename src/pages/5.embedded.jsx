@@ -60,7 +60,8 @@ const Embedded = () => {
                 <ul>
                   <li>
                     This track was created to a brief for the Autumn / Winter
-                    video for AKA Clothing, Manchester.
+                    video for AKA Clothing, Manchester - used for the video in
+                    the section below.
                   </li>
                   <li>
                     I took inspiration from Radiohead, Aphex Twin and Bononbo.

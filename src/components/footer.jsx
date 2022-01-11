@@ -1,6 +1,4 @@
 import React from "react";
-import logo from "../media/images/rediffusion_logo.png";
-import bram from "../media/images/bram.jpg";
 
 const Footer = () => {
   return (

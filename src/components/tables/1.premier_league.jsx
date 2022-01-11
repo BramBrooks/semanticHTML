@@ -1,5 +1,4 @@
 import React from "react";
-import NextStepsTable from "./5.next_steps_table";
 
 const PremierLeague = () => {
   return (

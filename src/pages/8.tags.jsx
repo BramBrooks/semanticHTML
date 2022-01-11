@@ -1,6 +1,5 @@
 import React from "react";
 import TagTable from "../components/tagtable";
-import TagPercentage from "../components/tag_percentage";
 
 const Tag = () => {
   return (
@@ -17,7 +16,6 @@ const Tag = () => {
         </p>
         <div className="tag_table_container">
           <TagTable />
-          {/* <TagPercentage /> */}
         </div>
       </section>
     </main>

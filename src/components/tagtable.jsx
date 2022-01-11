@@ -16,13 +16,10 @@ const TagTable = () => {
       </thead>
       <tbody>
         {htmlTagData.map((tagData) => {
-          {
-            {
-              (tagData.used === "Yes") | (tagData.used === "n/a")
-                ? (tableRowColor = "red")
-                : (tableRowColor = "white");
-            }
-          }
+          (tagData.used === "Yes") | (tagData.used === "n/a")
+            ? (tableRowColor = "red")
+            : (tableRowColor = "white");
+
           return (
             <tr className={tableRowColor}>
               <td>&lt;&nbsp;{tagData.tag}&nbsp;&gt;</td>

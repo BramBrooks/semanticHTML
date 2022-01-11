@@ -1,5 +1,4 @@
 import React from "react";
-import bram from "../media/images/bram.jpg";
 
 const Home = () => {
   return (
@@ -129,10 +128,6 @@ const Home = () => {
                 </ul>
               </div>
             </div>
-            {/* <img
-              src={bram}
-              alt="Photograph of the website author,6 Bram Brooks"
-            /> */}
           </aside>
         </div>
       </main>

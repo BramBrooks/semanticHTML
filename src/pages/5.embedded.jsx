@@ -21,7 +21,7 @@ document.addEventListener(
     // Iterate through all players and pause them, except for
     // the one who fired the "play" event ("target")
     for (var i = 0; i < allAudios.length; i++) {
-      if (allAudios[i] != e.target) {
+      if (allAudios[i] !== e.target) {
         allAudios[i].pause();
       }
     }
@@ -192,30 +192,3 @@ const Embedded = () => {
 };
 
 export default Embedded;
-
-// add alternative audio options to the MP3
-// add alternative video options and explore the preload options
-// Track tag is used for bringing in subtitles, captions, descriptions, chapters, and Meta data.
-// Will be good to experiment with this to try and get it working.
-
-{
-  /* Need to spend spent more time6 figuring out objects and embed */
-}
-{
-  /* <object> */
-}
-{
-  /* also need to look into the use of param */
-}
-{
-  /* <param name="foo" value="bar"></param>
-              <embed
-                // type="flash"
-                type="video/webm"
-                src={videofile}
-                width="250"
-                height="200"
-                autoplay="off"
-              ></embed>
-            </object> */
-}

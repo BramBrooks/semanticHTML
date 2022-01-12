@@ -102,7 +102,7 @@ aside {
 
 @media screen and (max-width: 430px) {
   main {
-    margin: 15px 5%;
+    margin: 3%;
     border: 10px solid $red-background;
     // h2 {
     //   font-size: 22px;
@@ -114,6 +114,6 @@ aside {
   }
 }
 
-// are there a set of standard breakpoints or does it vary with designs?
+// are there a set of standard breakpoints or does it vary with designs?£
 // I guess all the elements being different sizes must change things
 // but then is it standard to set them as variables, so don't have to keep remembering ?

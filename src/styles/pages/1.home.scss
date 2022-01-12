@@ -43,8 +43,9 @@
         // border-top: 1px dotted $red-background ;
         li {
           margin-left: 20px;
+          margin-right: 10px;
           list-style-type: square;
-          padding: 20px 0 10px 0;
+          padding: 20px 10px 0;
         }
       }
     }
@@ -83,14 +84,6 @@
 
     .flex_item_2 {
       min-width: 0%;
-
-      aside {
-        .set_up_section {
-          li {
-            font-size: $mobile-font-size;
-          }
-        }
-      }
     }
   }
 }

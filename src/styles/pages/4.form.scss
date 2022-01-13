@@ -110,12 +110,17 @@
         font-size: 28px;
       }
       form {
-        margin: 50px 0px 90px 25px;
+        margin: 30px 0px 30px 25px;
+        .flex_container {
+          p {
+            padding: 0;
+          }
+        }
       }
 
       form .flex_container .flex_item_1,
       form .flex_container .flex_item_2 {
-        width: 250px;
+        width: 100%;
         // min-width: 300px;
         min-width: 100px;
       }

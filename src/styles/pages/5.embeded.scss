@@ -28,12 +28,41 @@
     margin: 0 30px 5px 0;
   }
 
+  @media screen and (max-width: 430px) {
+    h2 {
+      font-size: 28px;
+    }
+  }
+
   .audio_flex_container {
     display: flex;
     justify-content: space-evenly;
     margin-top: 25px;
     flex-wrap: wrap;
     margin-left: -20px;
+
+    @media screen and (max-width: 779px) {
+      .spectro_1 {
+        border-bottom: 1px dotted $red-background;
+        margin: 0 10px 0 10px;
+        summary {
+          margin-bottom: 40px;
+        }
+      }
+
+      .spectro_1:nth-of-type(2) {
+        margin-top: 20px;
+      }
+
+      .spectro_1:nth-last-of-type(1) {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        border-bottom: 0;
+        summary {
+          margin-bottom: 0px;
+        }
+      }
+    }
 
     h3 {
       margin-top: 15px;
@@ -90,15 +119,16 @@
     }
 
     video {
-      margin-top: 50px;
+      margin-top: 30px;
       padding: 15px;
-      border: $red-background solid 12px;
-      width: 65%;
-      border-radius: 50px;
+      border: $red-background solid 6px;
+      width: 80%;
+      border-radius: 10px;
       height: auto;
     }
   }
 
+  /// sort out this ridiculous hack
   .photography_container {
     background-color: #1e1e1e;
     ul {
@@ -119,48 +149,46 @@
         }
       }
     }
-  }
 
-  /// sort out this ridiculous hack
-
-  @media screen and (max-width: 841px) {
-    .photography_container ul li img {
-      width: 92%;
+    @media screen and (max-width: 841px) {
+      ul li img {
+        width: 92%;
+      }
     }
-  }
-  @media screen and (max-width: 750px) {
-    .photography_container ul li img {
-      width: 91%;
+    @media screen and (max-width: 750px) {
+      ul li img {
+        width: 91%;
+      }
     }
-  }
-  @media screen and (max-width: 630px) {
-    .photography_container ul li img {
-      width: 90%;
+    @media screen and (max-width: 630px) {
+      ul li img {
+        width: 90%;
+      }
     }
-  }
-  @media screen and (max-width: 601px) {
-    .photography_container ul li img {
-      width: 88%;
+    @media screen and (max-width: 601px) {
+      ul li img {
+        width: 88%;
+      }
     }
-  }
-  @media screen and (max-width: 510px) {
-    .photography_container ul li img {
-      width: 86%;
+    @media screen and (max-width: 510px) {
+      ul li img {
+        width: 86%;
+      }
     }
-  }
-  @media screen and (max-width: 430px) {
-    .photography_container ul li img {
-      width: 84%;
+    @media screen and (max-width: 430px) {
+      ul li img {
+        width: 84%;
+      }
     }
-  }
-  @media screen and (max-width: 400px) {
-    .photography_container ul li img {
-      width: 83%;
+    @media screen and (max-width: 400px) {
+      ul li img {
+        width: 83%;
+      }
     }
-  }
-  @media screen and (max-width: 390px) {
-    .photography_container ul li img {
-      width: 82%;
+    @media screen and (max-width: 390px) {
+      ul li img {
+        width: 82%;
+      }
     }
   }
 }

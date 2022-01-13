@@ -54,3 +54,7 @@ function App() {
 }
 
 export default App;
+
+// STILL TO DO
+// remember to create my own custom e-mail address
+  

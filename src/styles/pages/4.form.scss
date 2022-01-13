@@ -1,144 +1,152 @@
-form {
-  margin: 100px 0px 130px 50px;
+.form-container {
+  main {
+    form {
+      margin: 100px 0px 130px 50px;
 
-  .flex_container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-    flex-wrap: wrap;
-    // justify-content: space-between;
+      .flex_container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        // justify-content: space-between;
 
-    .flex_item_1 {
-      width: 40%;
-      min-width: 400px;
-      p {
-        font-weight: bold;
-        font-size: 20px;
-        list-style-type: none;
+        .flex_item_1 {
+          width: 40%;
+          min-width: 400px;
+          p {
+            font-weight: bold;
+            font-size: 20px;
+            list-style-type: none;
 
-        input {
-          width: 80%;
-          // width: 600px;
-          color: $dark-grey;
-          padding: 12px 20px 12px 10px;
-          border: 2px solid $light-grey;
-          border-radius: 5px;
-          margin-bottom: 20px;
+            input {
+              width: 80%;
+              // width: 600px;
+              color: $dark-grey;
+              padding: 12px 20px 12px 10px;
+              border: 2px solid $light-grey;
+              border-radius: 5px;
+              margin-bottom: 20px;
+            }
+
+            input:focus {
+              border-color: $light-red-background;
+              transition: 0.7s;
+            }
+          }
+          @import "../components/datalist_dropdown.scss";
         }
+        .flex_item_2 {
+          width: 40%;
+          min-width: 400px;
 
-        input:focus {
-          border-color: $light-red-background;
-          transition: 0.7s;
+          p {
+            // width: 1000px;
+
+            input,
+            textarea {
+              width: 80%;
+              color: $dark-grey;
+              padding: 12px 20px 12px 10px;
+              border: 2px solid $light-grey;
+              border-radius: 5px;
+              margin-bottom: 10px;
+            }
+
+            textarea {
+              height: 200px;
+              font-family: sans-serif;
+            }
+            input:focus,
+            textarea:focus {
+              border-color: $light-red-background;
+              transition: 0.7s;
+            }
+          }
+        }
+        .button_container {
+          display: flex;
+          // justify-content: flex-end;
+
+          button {
+            margin-top: 20px;
+            color: $text-colour;
+            font-family: sans-serif;
+            border: black 0px solid;
+            border-radius: 3px;
+            background-color: $red-background;
+            padding: 20px;
+          }
+
+          button:hover {
+            background-color: $light-red-background;
+            transition: 0.7s;
+          }
         }
       }
-      @import "../components/datalist_dropdown.scss";
     }
-    .flex_item_2 {
-      width: 40%;
-      min-width: 400px;
 
-      p {
-        // width: 1000px;
-
-        input,
-        textarea {
-          width: 80%;
-          color: $dark-grey;
-          padding: 12px 20px 12px 10px;
-          border: 2px solid $light-grey;
-          border-radius: 5px;
-          margin-bottom: 10px;
-        }
-
-        textarea {
-          height: 200px;
-          font-family: sans-serif;
-        }
-        input:focus,
-        textarea:focus {
-          border-color: $light-red-background;
-          transition: 0.7s;
-        }
+    @media screen and (max-width: 1026px) {
+      form {
+        margin: 70px 0px 90px 50px;
       }
     }
-    .button_container {
-      display: flex;
-      // justify-content: flex-end;
 
-      button {
-        margin-top: 20px;
-        color: $text-colour;
-        font-family: sans-serif;
-        border: black 0px solid;
-        border-radius: 3px;
-        background-color: $red-background;
-        padding: 20px;
+    @media screen and (max-width: 580px) {
+      form {
+        margin: 50px 0px 90px 25px;
       }
 
-      button:hover {
-        background-color: $light-red-background;
-        transition: 0.7s;
+      form .flex_container .flex_item_1,
+      form .flex_container .flex_item_2 {
+        width: 300px;
+        // min-width: 300px;
+        min-width: 100px;
+      }
+    }
+
+    @media screen and (max-width: 430px) {
+      h2 {
+        font-size: 28px;
+      }
+      form {
+        margin: 50px 0px 90px 25px;
+      }
+
+      form .flex_container .flex_item_1,
+      form .flex_container .flex_item_2 {
+        width: 250px;
+        // min-width: 300px;
+        min-width: 100px;
+      }
+    }
+
+    @media screen and (max-width: 375px) {
+      form {
+        margin: 50px 0px 90px 15px;
+      }
+
+      form .flex_container .flex_item_1,
+      form .flex_container .flex_item_2 {
+        width: 250px;
+        // min-width: 300px;
+        min-width: 100px;
+      }
+    }
+
+    @media screen and (max-width: 345px) {
+      form {
+        margin: 50px 0px 90px 0px;
+      }
+
+      form .flex_container .flex_item_1,
+      form .flex_container .flex_item_2 {
+        width: 230px;
+        // min-width: 300px;
+        min-width: 100px;
       }
     }
   }
+  // flex grow probably not applicable in this situation, as you don't want the form to grow too much!
+  // you on the to be pretty limited in size}
 }
-
-@media screen and (max-width: 1026px) {
-  form {
-    margin: 70px 0px 90px 50px;
-  }
-}
-
-@media screen and (max-width: 580px) {
-  form {
-    margin: 50px 0px 90px 25px;
-  }
-
-  form .flex_container .flex_item_1,
-  form .flex_container .flex_item_2 {
-    width: 300px;
-    // min-width: 300px;
-    min-width: 100px;
-  }
-}
-@media screen and (max-width: 430px) {
-  form {
-    margin: 50px 0px 90px 25px;
-  }
-
-  form .flex_container .flex_item_1,
-  form .flex_container .flex_item_2 {
-    width: 250px;
-    // min-width: 300px;
-    min-width: 100px;
-  }
-}
-@media screen and (max-width: 375px) {
-  form {
-    margin: 50px 0px 90px 15px;
-  }
-
-  form .flex_container .flex_item_1,
-  form .flex_container .flex_item_2 {
-    width: 250px;
-    // min-width: 300px;
-    min-width: 100px;
-  }
-}
-
-@media screen and (max-width: 345px) {
-  form {
-    margin: 50px 0px 90px 0px;
-  }
-
-  form .flex_container .flex_item_1,
-  form .flex_container .flex_item_2 {
-    width: 230px;
-    // min-width: 300px;
-    min-width: 100px;
-  }
-}
-
-// flex grow probably not applicable in this situation, as you don't want the form to grow too much!
-// you on the to be pretty limited in size

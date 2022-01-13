@@ -202,7 +202,22 @@
     }
   }
 
-  @media screen and (max-width: 359px) {
+  // iPhone XR - 414px
+  @media screen and (max-width: 414px) {
+    header {
+      .menu-icon {
+        right: 16px;
+        top: 17.5px;
+      }
+      .title_and_logo_container {
+        h1 {
+          margin-left: 46px;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 390px) {
     header {
       .menu-icon {
         right: 13px;

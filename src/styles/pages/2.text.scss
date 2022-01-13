@@ -10,6 +10,7 @@
     .textPage_container1 {
       width: 60%;
       min-width: 400px;
+      line-height: 19px;
 
       h2 {
         border-bottom: 0;
@@ -59,12 +60,13 @@
         padding: 0px 5px;
 
         color: white;
+        border-radius: 3px;
       }
 
       kbd {
         background-color: $red-background;
         color: white;
-        padding: 7px 7px;
+        padding: 5px 5px 3px 5px;
         border: 0;
         border-radius: 3px;
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2),
@@ -155,6 +157,7 @@
         }
         p:nth-last-of-type(1) {
           border-bottom: 0;
+          margin-bottom: -30px;
         }
       }
 
@@ -175,6 +178,9 @@
           // p:nth-of-type(2) {
           //   padding-bottom: 10px;
           // }
+          p:nth-of-type(2) {
+            padding: 10px 0 0px 40px;
+          }
 
           hr {
             display: none;
@@ -182,9 +188,9 @@
         }
 
         article:nth-of-type(3) {
-          border-bottom: 0;
+          // border-bottom: 0;
           p:nth-of-type(2) {
-            padding-bottom: 10px;
+            padding-bottom: 30px;
             // border-bottom: 0;
           }
         }
@@ -193,18 +199,24 @@
   }
   @media screen and (max-width: 430px) {
     main {
+      h2:nth-of-type(1) {
+        font-size: 28px;
+        // color: green;
+      }
+
       .textPage_container2 {
         article {
           header {
             width: 100%;
             padding-right: 0px;
           }
-          // p {
-          //   font-size: 12px;
-          // }
-          // p:nth-of-type(2) {
-          //   padding-bottom: 10px;
-          // }
+          p {
+            // font-size: 12px;
+            padding-bottom: 20px;
+          }
+          p:nth-of-type(3) {
+            padding-bottom: 20px;
+          }
         }
       }
     }

@@ -23,14 +23,14 @@ const Footer = () => {
               <i class="fab fa-linkedin"></i> Linked In
             </a>
           </p>
-          <p>T: 07714 787 631</p>
+          <p>T: 07714787631</p>
           <p>
-            E: <a href="mailto:bram451@Hotmail.com">hello@brambrooks.com</a>
+            E: <a href="mailto:bram451@Hotmail.com">bram451@hotmail.com</a>
           </p>
+          {/* <p>
+            E: <a href="mailto:bram451@Hotmail.com">hello@brambrooks.com</a>
+          </p> */}
         </div>
-        {/* <div className="footer_item_3">
-          <img src={logo} alt="bram"></img>
-        </div> */}
       </div>
 
       <div className="small_print">

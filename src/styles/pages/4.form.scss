@@ -1,6 +1,18 @@
 .form-container {
   main {
-    form {
+    form {   form {
+        margin: 20px 0px 30px 20px;
+      }
+   form {
+        margin: 20px 0px 30px 20px;
+      }
+   form {
+        margin: 20px 0px 30px 20px;
+      }
+   form {
+        margin: 20px 0px 30px 20px;
+      }
+
       margin: 100px 0px 130px 50px;
 
       .flex_container {
@@ -115,20 +127,24 @@
           p {
             padding: 0;
           }
+          .flex_item_1,
+          .flex_item_2 {
+            width: 100%;
+            // min-width: 300px;
+            min-width: 100px;
+          }
+          .button_container {
+            button {
+              margin-left: -19px;
+            }
+          }
         }
-      }
-
-      form .flex_container .flex_item_1,
-      form .flex_container .flex_item_2 {
-        width: 100%;
-        // min-width: 300px;
-        min-width: 100px;
       }
     }
 
-    @media screen and (max-width: 375px) {
+    @media screen and (max-width: 360px) {
       form {
-        margin: 50px 0px 90px 15px;
+        margin: 20px 0px 30px 20px;
       }
 
       form .flex_container .flex_item_1,
@@ -139,9 +155,9 @@
       }
     }
 
-    @media screen and (max-width: 345px) {
+    @media screen and (max-width: 348px) {
       form {
-        margin: 50px 0px 90px 0px;
+        margin: 20px 0px 40px 15px;
       }
 
       form .flex_container .flex_item_1,
@@ -149,6 +165,23 @@
         width: 230px;
         // min-width: 300px;
         min-width: 100px;
+      }
+    }
+
+    @media screen and (max-width: 320px) {
+      form {
+        margin: 20px 0px 30px 10px;
+        .flex_container .flex_item_1,
+        .flex_container .flex_item_2 {
+          width: 210px;
+          // min-width: 300px;
+          min-width: 100px;
+          .button_container {
+            button {
+              margin-top: 10px;
+            }
+          }
+        }
       }
     }
   }

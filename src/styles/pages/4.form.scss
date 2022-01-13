@@ -1,18 +1,6 @@
 .form-container {
   main {
-    form {   form {
-        margin: 20px 0px 30px 20px;
-      }
-   form {
-        margin: 20px 0px 30px 20px;
-      }
-   form {
-        margin: 20px 0px 30px 20px;
-      }
-   form {
-        margin: 20px 0px 30px 20px;
-      }
-
+    form {
       margin: 100px 0px 130px 50px;
 
       .flex_container {
@@ -21,7 +9,6 @@
         width: 100%;
         justify-content: center;
         flex-wrap: wrap;
-        // justify-content: space-between;
 
         .flex_item_1 {
           width: 40%;
@@ -33,7 +20,6 @@
 
             input {
               width: 80%;
-              // width: 600px;
               color: $dark-grey;
               padding: 12px 20px 12px 10px;
               border: 2px solid $light-grey;
@@ -53,8 +39,6 @@
           min-width: 400px;
 
           p {
-            // width: 1000px;
-
             input,
             textarea {
               width: 80%;
@@ -112,7 +96,6 @@
       form .flex_container .flex_item_1,
       form .flex_container .flex_item_2 {
         width: 300px;
-        // min-width: 300px;
         min-width: 100px;
       }
     }
@@ -130,7 +113,6 @@
           .flex_item_1,
           .flex_item_2 {
             width: 100%;
-            // min-width: 300px;
             min-width: 100px;
           }
           .button_container {
@@ -150,7 +132,6 @@
       form .flex_container .flex_item_1,
       form .flex_container .flex_item_2 {
         width: 250px;
-        // min-width: 300px;
         min-width: 100px;
       }
     }
@@ -163,7 +144,6 @@
       form .flex_container .flex_item_1,
       form .flex_container .flex_item_2 {
         width: 230px;
-        // min-width: 300px;
         min-width: 100px;
       }
     }
@@ -174,7 +154,6 @@
         .flex_container .flex_item_1,
         .flex_container .flex_item_2 {
           width: 210px;
-          // min-width: 300px;
           min-width: 100px;
           .button_container {
             button {

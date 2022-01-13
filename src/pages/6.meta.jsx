@@ -196,17 +196,14 @@ const Meta = () => {
                 Cookies which don't specify an expiry date, expire as soon as
                 the session has ended.
               </p>
-              <p>Mmmm... Cookies!!</p>
+              <p>Mmmm...</p>
             </section>
           </div>
           <div className="meta_item_3">
-            <section>
-              {" "}
-              <img
-                src={cookie_monster}
-                alt="Cookie Monster from 1970s TV show, Sesame Street."
-              />
-            </section>
+            <img
+              src={cookie_monster}
+              alt="Cookie Monster from 1970s TV show, Sesame Street."
+            />
           </div>
         </aside>
       </div>

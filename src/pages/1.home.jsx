@@ -13,7 +13,7 @@ const Home = () => {
               familiar each HTML element…
             </p>
             <p>
-              ... so I decided to try and create a site which used all of them !
+              ... so I decided to try and create a site which used all of them.
             </p>
             <p>
               I've included&nbsp;
@@ -21,8 +21,7 @@ const Home = () => {
             </p>
             <p>
               HTML gives structure to webpages, but the correct use of&nbsp;
-              <dfn>Semantic HTML</dfn>, the meaningful use of HTML tags, is
-              important for two reasons:
+              <dfn>Semantic HTML</dfn>&nbsp;is important for two reasons:
             </p>
             <br />
             <ol>

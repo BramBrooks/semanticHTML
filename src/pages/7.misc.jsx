@@ -5,7 +5,7 @@ const Misc = () => {
   return (
     <div className="misc_page_container">
       <main className="output">
-        <h2>Misc.</h2>
+        <h2>Misc</h2>
 
         {/* <h2>This is a menu</h2>
         <menu type="popup">

@@ -3,6 +3,11 @@
     form {
       margin: 100px 0px 130px 50px;
 
+      textarea,
+      input {
+        font-size: 17px;
+      }
+
       .flex_container {
         display: flex;
         flex-wrap: wrap;
@@ -72,6 +77,8 @@
             border-radius: 3px;
             background-color: $red-background;
             padding: 20px;
+            width: 90px;
+            font-size: 15px;
           }
 
           button:hover {

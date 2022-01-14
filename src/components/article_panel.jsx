@@ -5,7 +5,7 @@ const ArticlePanel = () => {
     <>
       <article>
         <header>
-          <h2>Article 1.</h2>
+          <h2>Article 1</h2>
           <time datetime="2021-11-14T15:09">14th November 2021</time>
         </header>
 
@@ -25,7 +25,7 @@ const ArticlePanel = () => {
       </article>
       <article>
         <header>
-          <h2>Article 2.</h2>
+          <h2>Article 2</h2>
 
           <time datetime="2021-11-15T15:09">15th November 2021</time>
         </header>
@@ -45,7 +45,7 @@ const ArticlePanel = () => {
       </article>
       <article>
         <header>
-          <h2>Article 3.</h2>
+          <h2>Article 3</h2>
           <time datetime="2021-11-16T15:09">16th November 2021</time>
         </header>
         <p>

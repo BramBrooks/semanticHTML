@@ -6,7 +6,7 @@ const Home = () => {
       <main>
         <div className="flex_item_1">
           <section>
-            <h2>Welcome.</h2>
+            <h2>Welcome</h2>
             <p>Hi there !</p>
             <p>
               As part of my learning and development, I wanted to become more
@@ -36,7 +36,7 @@ const Home = () => {
 
           <section>
             {" "}
-            <h2>Accessibility.</h2>
+            <h2>Accessibility</h2>
             <p>
               People who are visually impaired can use&nbsp;
               <dfn>Screen Reader</dfn>&nbsp;software to help make sense of
@@ -58,7 +58,7 @@ const Home = () => {
             </p>
           </section>
           <section>
-            <h2>Search Engine Optimisation.</h2>
+            <h2>Search Engine Optimisation</h2>
             <p>
               There are a number of ways to boost Search Engine rankings - known
               as <dfn>Search Engine Optimisation</dfn> (SEO) - but the first
@@ -80,7 +80,7 @@ const Home = () => {
         <div className="flex_item_2">
           <aside>
             <div>
-              <h2>Talon Voice.</h2>
+              <h2>Talon Voice</h2>
               <p>
                 In May 2021 I tore a tendon in my right hand, leading to chronic
                 tendinitis.
@@ -111,7 +111,7 @@ const Home = () => {
               <p>Around 90% of this project has been made using Talon.</p>
               <div className="set_up_section">
                 {" "}
-                <h2>Setup.</h2>
+                <h2>Setup</h2>
                 <ul>
                   <li>Talon Voice 0.2.3</li>
                   <li>Dragon Dictate 4.0</li>
@@ -123,7 +123,7 @@ const Home = () => {
                   <li>Focusrite Scarlet 2i2 Audio Interface</li>
                   <li>Macbook Pro / Catalina 10.15.7</li>
 
-                  <li>Coffee (loads)</li>
+                  <li>Caffeine</li>
                 </ul>
               </div>
             </div>

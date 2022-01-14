@@ -34,7 +34,7 @@ const Embedded = () => {
     <div className="embedded_container">
       <main>
         <section>
-          <h2>Embedded Content.</h2>
+          <h2>Embedded Content</h2>
           <div className="embedded_txt">
             <p>
               As well as training as a web / software developer, I've always

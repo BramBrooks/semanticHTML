@@ -8,7 +8,7 @@ const Text = () => {
         <div className="textPage_container1">
           {/* <div className="section"> */}
           <section>
-            <h2>Text Elements.</h2>
+            <h2>Text Elements</h2>
             <p>
               This is a <span className="red_paragraph">paragraph</span>.
             </p>

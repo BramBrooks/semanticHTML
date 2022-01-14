@@ -7,7 +7,7 @@ const Meta = () => {
       <div className="container_1">
         <section>
           <header>
-            <h2>Meta Data Attributes.</h2>
+            <h2>Meta Data Attributes</h2>
           </header>
           <ul>
             <li>
@@ -157,7 +157,7 @@ const Meta = () => {
           {" "}
           <div className="meta_item_1">
             <section>
-              <h2>Meta Data.</h2>{" "}
+              <h2>Meta Data</h2>{" "}
               <p>
                 The <dfn>Meta Data</dfn> of an HTML document is stored using the
                 &lt;meta&gt; tag within the &lt;head&gt; tag.{" "}
@@ -178,7 +178,7 @@ const Meta = () => {
           </div>
           <div className="meta_item_2">
             <section>
-              <h2>Cookies.</h2>
+              <h2>Cookies</h2>
               <p>
                 Data is stored in small text files called <dfn>'cookies'</dfn> -
                 which help facilitate communication between the client and web

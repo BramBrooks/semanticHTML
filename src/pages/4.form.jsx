@@ -5,7 +5,7 @@ const Form = () => {
     <div className="form-container">
       <main>
         <section>
-          <h2>Form.</h2>
+          <h2>Form</h2>
           <form autocomplete="off">
             <fieldset className="flex_container">
               {/* ********************* FLEX ITEM ONE ********************* */}
@@ -58,7 +58,7 @@ const Form = () => {
                 </p>
                 <div className="button_container">
                   {" "}
-                  <button>Send Message</button>
+                  <button>Send</button>
                 </div>
               </div>{" "}
             </fieldset>

@@ -10,7 +10,7 @@ const Table = () => {
       {" "}
       <main>
         <section>
-          <h2>Tables.</h2>
+          <h2>Tables</h2>
           <div className="football_table_container">
             <PremierLeague />
             <Championship />

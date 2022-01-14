@@ -193,7 +193,7 @@ const htmlTagData = [
   {
     id: 60,
     tag: "meta",
-    meaning: "CanvasBe element containing the Meta data for the website",
+    meaning: "Element containing the Meta Data",
     used: "Yes",
   },
   {

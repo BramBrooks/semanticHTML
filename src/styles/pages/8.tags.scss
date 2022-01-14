@@ -5,7 +5,7 @@
   max-width: 100%;
   margin-top: 15px;
   // margin-left: 10px;
-  // margin-right: 30px;
+  // margin-right: 30px;11
 }
 
 mark {
@@ -21,36 +21,37 @@ mark {
   flex-flow: row wrap;
   align-items: flex-start;
   margin-top: 20px;
-  margin-bottom: 25px;
-  margin-left: -10px;
+  // margin-bottom: 15px;
+  margin-left: -18px;
 
   table {
-    width: 90%;
+    width: 94%;
     position: relative;
     border-collapse: collapse;
     background-color: white;
     border: solid 1px #ededed;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    font-size: 16px;
   }
 
-  table:nth-of-type(2) {
-    width: 30%;
-    // margin-right: auto;
-    th:nth-child(1) {
-      width: 5%;
-      text-align: right;
-      padding-right: 20px;
-      border-right: solid 1px #ededed;
-    }
+  // table:nth-of-type(2) {
+  //   width: 30%;
+  //   // margin-right: auto;
+  //   th:nth-child(1) {
+  //     width: 5%;
+  //     text-align: right;
+  //     padding-right: 20px;
+  //     border-right: solid 1px #ededed;
+  //   }
 
-    th:nth-child(2) {
-      width: 5%;
-      text-align: left;
-      padding-left: 20px;
-      border-right: solid 1px #ededed;
-    }
-  }
+  //   th:nth-child(2) {
+  //     width: 5%;
+  //     text-align: left;
+  //     padding-left: 20px;
+  //     border-right: solid 1px #ededed;
+  //   }
+  // }
 
   caption {
     text-align: center;
@@ -81,17 +82,17 @@ mark {
   }
 
   th:nth-child(2) {
-    width: 40%;
+    width: 85%;
     text-align: left;
     padding-left: 20px;
     border-right: solid 1px #ededed;
     border-top-right-radius: 30px;
   }
 
-  th:nth-child(3) {
-    width: 5%;
-    text-align: center;
-  }
+  // th:nth-child(3) {
+  //   width: 5%;
+  //   text-align: center;
+  // }
 
   // ************************* TABLE DATA *************************
 
@@ -104,21 +105,21 @@ mark {
   td:nth-of-type(1) {
     text-align: right;
     text-align: left;
-    padding: 20px;
+    padding: 10px 15px;
     border-right: solid 1px #ededed;
   }
 
   // table data - description column
   td:nth-of-type(2) {
     text-align: left;
-    padding: 20px;
+    padding: 10px 15px;
   }
 
   // table data - yes or no column
-  td:nth-of-type(3) {
-    text-align: center;
-    border-left: solid 1px #ededed;
-  }
+  // td:nth-of-type(3) {
+  //   text-align: center;
+  //   border-left: solid 1px #ededed;
+  // }
 
   tr:nth-last-of-type(1) {
     td:nth-of-type(1) {

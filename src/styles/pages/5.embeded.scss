@@ -28,6 +28,10 @@
     margin: 0 30px 5px 0;
   }
 
+  h2:nth-of-type(1) {
+    margin-bottom: -10px;
+  }
+
   @media screen and (max-width: 430px) {
     h2 {
       font-size: 28px;
@@ -46,7 +50,7 @@
         border-bottom: 1px dotted $red-background;
         margin: 0 10px 0 10px;
         summary {
-          margin-bottom: 40px;
+          margin-bottom: 48px;
         }
       }
 
@@ -97,6 +101,7 @@
         border-radius: 11px;
         list-style: none;
         margin-left: 30px;
+        margin-bottom: 40px;
         padding: 20px 20px 5px 20px;
         li {
           margin-bottom: 20px;
@@ -142,8 +147,8 @@
           width: 300px;
           height: auto;
           padding: 15px;
-          border: grey solid 1px;
-          border: $red-background solid 1px;
+          // border: grey solid 1px;
+          // border: $red-background solid 1px;
           border-radius: 5px;
           margin: 10px 10px;
         }

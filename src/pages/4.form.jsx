@@ -54,7 +54,9 @@ const Form = () => {
                 {" "}
                 {/* ********************* FLEX ITEM TWO ********************* */}
                 <p>
-                  <textarea placeholder="Form not yet functional. Next steps - connect form up with PHP, then further UX / validation improvements. "></textarea>
+                  <textarea
+                    placeholder="Form not yet functional.&#10;Next steps:&#10;1. Connect form with PHP&#10;2. Add client side validation&#10;3. Further UX improvements"
+                  ></textarea>
                 </p>
                 <div className="button_container">
                   {" "}

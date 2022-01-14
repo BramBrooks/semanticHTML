@@ -76,9 +76,10 @@
             border: black 0px solid;
             border-radius: 3px;
             background-color: $red-background;
-            padding: 20px;
+            padding: 15px;
             width: 90px;
             font-size: 15px;
+            margin-left: 1px;
           }
 
           button:hover {
@@ -119,7 +120,7 @@
           }
           .flex_item_1,
           .flex_item_2 {
-            width: 100%;
+            width: 275px;
             min-width: 100px;
           }
           .button_container {

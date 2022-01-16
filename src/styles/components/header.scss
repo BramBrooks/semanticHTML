@@ -219,6 +219,11 @@
   @media screen and (max-width: 430px) {
     header {
       height: 70px;
+
+      .nav-menu {
+        top: 70px;
+      }
+
       .menu-icon {
         right: 16px;
         top: 9px;

@@ -7,6 +7,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-start;
+    margin-bottom: -17px;
 
     .football_flex_item {
       width: 40%;
@@ -205,6 +206,7 @@
   }
   @media screen and (max-width: 948px) {
     .football_table_container {
+      margin-bottom: -17px;
       .football_flex_item {
         caption {
           margin-bottom: 10px;

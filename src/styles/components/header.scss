@@ -145,9 +145,6 @@
       justify-content: flex-start;
 
       .menu-icon {
-        // font-size: 1.4rem;
-        // top: 14px;
-        // right: 12px;
         top: 8px;
         right: 20px;
         font-size: 2rem;
@@ -162,7 +159,7 @@
 
       img {
         width: 45px;
-        display: none;
+        // display: none;
       }
     }
   }
@@ -205,13 +202,19 @@
   // iPhone XR - 414px
   @media screen and (max-width: 414px) {
     header {
+      height: 70px;
       .menu-icon {
         right: 16px;
-        top: 17.5px;
+        top: 8px;
       }
       .title_and_logo_container {
+        margin-left: 25px;
         h1 {
-          margin-left: 46px;
+          margin-left: 14px;
+        }
+        img {
+          width: 40px;
+          margin-top: 7px;
         }
       }
     }

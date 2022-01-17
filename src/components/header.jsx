@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../media/images/rediffusion_logo.png";
 import Nav from "./navbar/nav";

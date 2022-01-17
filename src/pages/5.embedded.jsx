@@ -29,9 +29,13 @@ document.addEventListener(
   true
 );
 
-const Embedded = () => {
+function Embedded(props) {
+  const result = props.result;
+
   return (
-    <div className="embedded_container">
+    <div
+      className={result ? "embedded_container_hidden" : "embedded_container"}
+    >
       <main>
         <section>
           <h2>Embedded Content</h2>
@@ -189,6 +193,6 @@ const Embedded = () => {
       </main>
     </div>
   );
-};
+}
 
 export default Embedded;

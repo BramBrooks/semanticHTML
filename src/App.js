@@ -1,4 +1,5 @@
 // import Header from "./components/header_1";
+import React, { Component } from "react";
 import Header from "./components/header";
 import Home from "./pages/1.home";
 import Form from "./pages/4.form";
@@ -14,47 +15,61 @@ import "./styles/reset.scss";
 import "./styles/main.scss";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-function App() {
-  return (
-    <Router>
-      {/* <div className="header_banner"> */}
-      <Header />
-      {/* <Nav /> */}
-      {/* </div> */}
+class App extends Component {
+  state = { clicked: false };
 
-      <Switch>
-        <Route path="/embedded">
-          <Embedded />
-        </Route>
-        <Route path="/text">
-          <Text />
-        </Route>
-        <Route path="/form">
-          <Form />
-        </Route>
-        <Route path="/meta">
-          <Meta />
-        </Route>
-        <Route path="/table">
-          <Table />
-        </Route>
-        <Route path="/tags">
-          <Tags />
-        </Route>
-        {/* <Route path="/misc">
+  // updates state to toggle hamburger / responsive navbar
+  handleHamburgerClick = () => {
+    this.setState({ clicked: !this.state.clicked });
+  };
+
+  // updates state to toggle to hamburger view once nav option clicked
+  handleNavClick = () => {
+    this.setState({ clicked: false });
+  };
+
+  render() {
+    // console.log(this.state.clicked);
+    return (
+      <Router>
+        <Header
+          result={this.state.clicked}
+          handleNavClick={this.handleNavClick}
+          handleHamburgerClick={this.handleHamburgerClick}
+        />
+        <Switch>
+          <Route path="/embedded">
+            <Embedded result={this.state.clicked} />
+          </Route>
+          <Route path="/text">
+            <Text result={this.state.clicked} />
+          </Route>
+          <Route path="/form">
+            <Form result={this.state.clicked} />
+          </Route>
+          <Route path="/meta">
+            <Meta result={this.state.clicked} />
+          </Route>
+          <Route path="/table">
+            <Table result={this.state.clicked} />
+          </Route>
+          <Route path="/tags">
+            <Tags result={this.state.clicked} />
+          </Route>
+          {/* <Route path="/misc">
           <Misc />
         </Route> */}
-        <Route exact path="/">
-          <Home />
-        </Route>
-      </Switch>
-      <Footer />
-    </Router>
-  );
+          <Route exact path="/">
+            <Home result={this.state.clicked} />
+          </Route>
+        </Switch>
+        <Footer result={this.state.clicked} />
+      </Router>
+    );
+  }
 }
 
 export default App;
 
 // STILL TO DO
 // remember to create my own custom e-mail address
-  

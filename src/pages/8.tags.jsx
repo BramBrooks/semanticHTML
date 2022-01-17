@@ -1,9 +1,11 @@
 import React from "react";
 import TagTable from "../components/tagtable";
 
-const Tag = () => {
+function Tag(props) {
+  const result = props.result;
+
   return (
-    <div className="tag_page_container">
+    <div className={result ? "tag_page_hidden" : "tag_page_container"}>
       {" "}
       <main>
         <section>
@@ -26,6 +28,6 @@ const Tag = () => {
       </main>
     </div>
   );
-};
+}
 
 export default Tag;

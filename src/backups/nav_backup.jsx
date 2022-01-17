@@ -4,8 +4,7 @@ import { MenuItems } from "./MenuItems";
 
 function Nav(props) {
   const result = props.result;
-  const handleNavClick = props.handleNavClick;
-  
+  const handleNavClick = props.handleClick_2;
 
   //  OK need to find a way to hide MAIN when nav menu active is showing
   //  So try sharing that info like has been shown here and then do conditional formatting?

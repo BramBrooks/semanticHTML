@@ -1,8 +1,14 @@
 import React from "react";
 
-const Home = () => {
+function Home(props) {
+  const result = props.result;
+
   return (
-    <div className="home_page_container">
+    <div
+      className={
+        result ? "home_page_container_inactive" : "home_page_container"
+      }
+    >
       <main>
         <div className="flex_item_1">
           <section>
@@ -132,6 +138,6 @@ const Home = () => {
       </main>
     </div>
   );
-};
+}
 
 export default Home;

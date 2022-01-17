@@ -1,8 +1,12 @@
 import React from "react";
 import cookie_monster from "../media/images/cookie_monster_filter.jpg";
 
-const Meta = () => {
+function Meta (props) {
+
+  const result = props.result;
   return (
+
+    <div className={result? "meta_page_hidden" : null}> 
     <main className="meta_page">
       <div className="container_1">
         <section>
@@ -207,7 +211,8 @@ const Meta = () => {
           </div>
         </aside>
       </div>
-    </main>
+    </main></div>
+    
   );
 };
 

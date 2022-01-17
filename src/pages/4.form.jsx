@@ -1,8 +1,9 @@
 import React from "react";
 
-const Form = () => {
+function Form(props) {
+  const result = props.result;
   return (
-    <div className="form-container">
+    <div className={result ? "form-container-hidden" : "form-container"}>
       <main>
         <section>
           <h2>Form</h2>
@@ -69,6 +70,6 @@ const Form = () => {
       </main>
     </div>
   );
-};
+}
 
 export default Form;

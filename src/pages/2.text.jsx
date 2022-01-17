@@ -1,9 +1,10 @@
 import React from "react";
 import ArticlePanel from "../components/article_panel.jsx";
 
-const Text = () => {
+function Text(props) {
+  const result = props.result;
   return (
-    <div className="textPageContainer">
+    <div className={result ? "text_page_hidden" : "textPageContainer"}>
       <main className="textPage">
         <div className="textPage_container1">
           {/* <div className="section"> */}
@@ -161,6 +162,6 @@ const Text = () => {
       </main>
     </div>
   );
-};
+}
 
 export default Text;

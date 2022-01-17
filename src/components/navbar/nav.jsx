@@ -4,7 +4,7 @@ import { MenuItems } from "./MenuItems";
 
 function Nav(props) {
   const result = props.result;
-  const handleClick = props.handleClick;
+  const handleNavClick = props.handleClick_2;
 
   //  OK need to find a way to hide MAIN when nav menu active is showing
   //  So try sharing that info like has been shown here and then do conditional formatting?
@@ -14,7 +14,7 @@ function Nav(props) {
       <ul className={result ? "nav-menu active" : "nav-menu"}>
         {MenuItems.map((item, index) => {
           return (
-            <Link to={item.url} onClick={handleClick}>
+            <Link to={item.url} onClick={handleNavClick}>
               <li key={index}> {item.title}</li>
             </Link>
           );
@@ -25,6 +25,3 @@ function Nav(props) {
 }
 
 export default Nav;
-
-
-// possible situation where 2 x handle clicks needed? 

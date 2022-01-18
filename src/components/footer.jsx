@@ -8,7 +8,7 @@ function Footer(props) {
       {" "}
       <footer>
         <div className="footer-container">
-          <div className="footer_item_1"></div>
+          {/* <div className="footer_item_1"></div> */}
 
           <div className="footer_item_2">
             <p>Bram Brooks</p>
@@ -22,7 +22,11 @@ function Footer(props) {
                 <i class="fab fa-linkedin"></i> Linked In
               </a>
             </p>
-            <p>T: 07714787631</p>
+
+            <a href="tel:07714787631">
+              <p>T: 07714787631</p>
+            </a>
+
             <p>
               E: <a href="mailto:bram451@Hotmail.com">bram451@hotmail.com</a>
             </p>

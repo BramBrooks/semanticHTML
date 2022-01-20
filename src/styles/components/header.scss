@@ -13,7 +13,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-left: 40px;
+      margin-left: 70px;
 
       .Link {
         text-decoration: none;
@@ -46,7 +46,7 @@
         list-style: none;
 
         grid-gap: 5px;
-        margin-right: 60px;
+        margin-right: 80px;
 
         a {
           color: $black-font;
@@ -77,15 +77,31 @@
     display: none;
   }
 
+  @media screen and (max-width: 1200px) {
+    header {
+      .title_and_logo_container {
+        margin-left: 40px;
+        h1 {
+          margin-left: 8px;
+        }
+      }
+      nav {
+        ul {
+          margin-right: 60px;
+        }
+      }
+    }
+  }
+
   @media screen and (max-width: 960px) {
     header {
       .title_and_logo_container {
         // margin: 0;
         margin-left: 50px;
 
-        h1 {
-          margin-left: 5px;
-        }
+        // h1 {
+        //   margin-left: 8px;
+        // }
       }
 
       // responsive nav menu
@@ -165,6 +181,7 @@
         h1 {
           // margin-left: -10px;
           font-size: 40px;
+          margin-left: 6px;
         }
 
         img {

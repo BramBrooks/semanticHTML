@@ -16,18 +16,17 @@ function Home(props) {
             <p>Hi there !</p>
             <p>
               As part of my learning and development, I wanted to become more
-              familiar each HTML element…
+              familiar with each HTML element…
+            </p>
+            <p>... so I decided to create a site which uses all of them.</p>
+            <p>
+              {" "}
+              So far I've included&nbsp;
+              <span>81%</span>&nbsp;of HTML tags in this site.
             </p>
             <p>
-              ... so I decided to try and create a site which used all of them.
-            </p>
-            <p>
-              I've included&nbsp;
-              <span>81%</span>&nbsp;of HTML tags in this site so far.
-            </p>
-            <p>
-              HTML gives structure to webpages, but the correct use of&nbsp;
-              <dfn>Semantic HTML</dfn>&nbsp;is important for two reasons:
+              HTML gives structure to webpages, but &nbsp;
+              <dfn>Semantic HTML</dfn>&nbsp;is also important for two reasons:
             </p>
             <br />
             <ol>
@@ -44,31 +43,31 @@ function Home(props) {
             {" "}
             <h2>Accessibility</h2>
             <p>
-              People who are visually impaired can use&nbsp;
+              People who are visually impaired have the option of using&nbsp;
               <dfn>Screen Reader</dfn>&nbsp;software to help make sense of
-              websites and improve accessibility to the web.
+              websites and improve their accessibility to the web.
             </p>
             <p>
               Screen Readers are driven by HTML tags, which help describe to the
-              user everything that is happening on the page.
+              user everything happening on screen.
             </p>
             <p>
-              So, if a site has been built badly in terms of Semantic HTML, it
+              So if a site has been built badly in terms of Semantic HTML, it
               makes it far more difficult to navigate, causing additional and
               unnecessary barriers to accessibility.
             </p>
             <p>
               Screen Readers also aren't able to read text displayed in the form
-              of image files, so this is also important to remember when
-              developing.
+              of image files - another important consideration when developing
+              new sites and features.
             </p>
           </section>
           <section>
             <h2>Search Engine Optimisation</h2>
             <p>
-              There are a number of ways to boost Search Engine rankings - known
-              as <dfn>Search Engine Optimisation</dfn> (SEO) - but the first
-              thing to get right is using Semantic HTML correctly.
+              There are a number of ways to boost Search Engine rankings -{" "}
+              <dfn>Search Engine Optimisation</dfn> (SEO) - but the first thing
+              to get right is using Semantic HTML correctly.
             </p>
             <p>
               Search Engines use algorithms to scan websites for matches, and
@@ -76,10 +75,9 @@ function Home(props) {
               HTML tags.
             </p>
             <p>
-              So not only does Semantic HTML masssively help improve
-              accessibility, it also means that people are more likely to
-              discover a website in the first place - all the more reason to get
-              it right.
+              So not only does Semantic HTML help improve accessibility, it
+              means that people are more likely to discover a website in the
+              first place - all the more reason to get it right.
             </p>
           </section>
         </div>
@@ -87,10 +85,7 @@ function Home(props) {
           <aside>
             <div>
               <h2>Talon Voice</h2>
-              <p>
-                In May 2021 I tore a tendon in my right hand, leading to chronic
-                tendinitis.
-              </p>
+              <p>In May 2021 I tore a tendon in my right hand.</p>
               <p>
                 Unable to use a keyboard, I started to explore the possibility
                 of learning to code by speech.
@@ -114,7 +109,7 @@ function Home(props) {
                 I'm currently using the <dfn>'Dragon Dictate'</dfn> voice
                 engine.
               </p>
-              <p>Around 90% of this project has been made using Talon.</p>
+              <p>Around 80% of this project has been made using Talon Voice.</p>
               <div className="set_up_section">
                 {" "}
                 <h2>Setup</h2>
@@ -128,8 +123,6 @@ function Home(props) {
                   </li>
                   <li>Focusrite Scarlet 2i2 Audio Interface</li>
                   <li>Macbook Pro / Catalina 10.15.7</li>
-
-                  <li>Caffeine</li>
                 </ul>
               </div>
             </div>

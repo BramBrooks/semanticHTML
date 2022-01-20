@@ -41,14 +41,13 @@ function Embedded(props) {
           <h2>Embedded Content</h2>
           <div className="embedded_txt">
             <p>
-              As well as training as a web / software developer, I've always
-              enjoyed various other creative pursuits, including music
-              production, photography, and bits of graphic design / video
-              production work.
+              As well as training as a software developer, I've always enjoyed
+              various other creative pursuits, including music production,
+              photography, and bits of graphic design / video production work.
               <br />
               <br />
-              I've included a couple of bits of work I've been involved in
-              below, for the purposes of demonstrating the use of HTML tags.
+              I've included some examples of work I've been involved in below,
+              for the purposes of demonstrating HTML tags.
             </p>
           </div>
         </section>
@@ -69,8 +68,8 @@ function Embedded(props) {
                   </li>
                   <li>
                     I took inspiration from Radiohead, Aphex Twin and Bononbo.
-                    My freind Caroline Sheehan provided the vocal parts, with
-                    Elbow session violinist Jote Oshan on violin.
+                    My friend Caroline Sheehan provided the vocals, with Elbow
+                    session musician Jote Osahn on violin.
                   </li>
                 </ul>
               </details>
@@ -83,13 +82,13 @@ function Embedded(props) {
                 <ul>
                   <li>
                     This track is based around a loop of me playing the drums in
-                    an old rehearsal room in Ancoats, recorded to casette 4
-                    track.
+                    an old rehearsal room in Ancoats, Manchester and recorded to
+                    casette 4-track.
                   </li>
                   <li>
-                    I then added the other elements - strings, bells, distorted
-                    clitchy effects using Reason software, with the overall
-                    track mixed using Pro Tools software.
+                    I then added the other elements - strings, bells, and
+                    distorted clitchy effects using Reason software, with the
+                    overall track mixed using Pro Tools.
                   </li>
                 </ul>
               </details>
@@ -113,8 +112,8 @@ function Embedded(props) {
                     The bass guitar you can hear was actually recorded live as
                     part of a seperate band performance session, but I cut a
                     loop from the original recording, and reversed it - given it
-                    quite a mysterious and atmospheric sound to match the beats
-                    and other sounds.
+                    quite an atmospheric sound to match the beats and other
+                    sounds.
                   </li>
                 </ul>
               </details>

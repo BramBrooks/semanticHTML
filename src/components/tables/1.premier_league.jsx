@@ -159,9 +159,9 @@ const PremierLeague = () => {
         </tbody>
       </table>
       <div className="football_tables_info">
-        <p>Football League data accurate as at 28/11/21.</p>
-        <p>Data hard-coded for demonstration purposes.</p>
-        <p>Next steps: pulling in live data from Football API.</p>
+        <p>Data accurate as at 28/11/2021.</p>
+        <p>Hard coded for demonstration purposes.</p>
+        <p>Next step: pull in live Football API data.</p>
       </div>
     </div>
   );

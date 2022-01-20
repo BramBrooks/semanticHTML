@@ -10,7 +10,7 @@ const htmlTagData = [
   {
     id: 7.8,
     tag: "base",
-    meaning: "Specifies a base pathname for all relative URLs.",
+    meaning: "Specifies a base pathname for all relative URLs",
     used: "Yes",
   },
 

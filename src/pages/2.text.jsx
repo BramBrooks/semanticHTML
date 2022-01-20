@@ -10,9 +10,7 @@ function Text(props) {
           {/* <div className="section"> */}
           <section>
             <h2>Text Elements</h2>
-            <p>
-              This is a <span className="red_paragraph">paragraph</span>.
-            </p>
+            <p className="red_paragraph">This is a paragraph.</p>
             <p>
               This paragraph contains an <i>italic</i> word.
             </p>
@@ -40,7 +38,7 @@ function Text(props) {
               >
                 This is a link
               </a>
-              &nbsp;from an anchor tag. Go on, click it. You know you want to.
+              &nbsp;from an anchor tag. Click it. You know you want to.
             </p>
 
             <p>
@@ -68,8 +66,9 @@ function Text(props) {
               founded in 1940. Hover over the abbreviation to find out more.
             </p>
             <p>
-              This paragraph contains a citation: <cite>'Revolver'</cite> by The
-              Beatles.
+              This paragraph contains a citation:{" "}
+              <cite>'CSS: The Definitive Guide'</cite> by Eric A Meyer & Estelle
+              Weyl.
             </p>
             <p>
               This paragraph contains a quote:&nbsp;
@@ -118,13 +117,12 @@ function Text(props) {
               <span>Hello!</span>{" "}
             </p>
             <p>
-              This paragraphs contains a <small>small</small> word - normally
-              used for legal "small print".
+              This paragraphs contains a <small>small</small> word, often used
+              for legal small print.
             </p>
             <p>
-              This paragraph contains a word which has been isolated - because
-              it's text direction might be different to the other text around
-              it:&nbsp;
+              This paragraph contains a word which has been highlighted because
+              it's text direction could differ from text around it:&nbsp;
               <bdi dir="rtl">sdrawkcab</bdi>
             </p>
             <p>
@@ -149,7 +147,7 @@ function Text(props) {
             <p>
               This paragraph contains a variable: &nbsp;
               <code>
-                <var>myString</var> = 'hello world';
+                <var>myString</var> = 'hello world!';
               </code>
             </p>
           </section>
